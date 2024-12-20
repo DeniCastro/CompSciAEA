@@ -33,7 +33,13 @@ To break down the problem of drawing the map, start by identifying the smaller t
 - **Task 4**: Add classroom numbers relevant to the route.
 - **Task 5**: Remove unnecessary details like trees or bins.
 
+  
+<div align="center">
  
+  ![schoolmap](https://github.com/DeniCastro/CompSciAEA/blob/DeniCastro-patch-1/schoolmap.png "School Map")
+
+</div>
+
 
 # Design
 
@@ -79,6 +85,12 @@ This is a way of writing the program's logic in simple, step-by-step language.
 
 **Example**:  
 A pseudocode for adding two numbers might look like this:
+
+<div align="center">
+
+  ![pseudocode](https://github.com/DeniCastro/CompSciAEA/blob/DeniCastro-patch-1/Pseudocode.png "Pseudo Code")
+  
+</div>
  
 # Coding
 
