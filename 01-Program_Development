@@ -36,7 +36,7 @@ To break down the problem of drawing the map, start by identifying the smaller t
   
 <div align="center">
  
-  ![schoolmap](https://github.com/DeniCastro/CompSciAEA/blob/DeniCastro-patch-1/schoolmap.png "School Map")
+  ![School]https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/schoolmap.png "School Map")
 
 </div>
 
@@ -88,7 +88,7 @@ A pseudocode for adding two numbers might look like this:
 
 <div align="center">
 
-  ![pseudocode](https://github.com/DeniCastro/CompSciAEA/blob/DeniCastro-patch-1/Pseudocode.png "Pseudo Code")
+  ![Pseudocode]https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Pseudocode.png "Pseudocode")
   
 </div>
  
