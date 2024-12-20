@@ -36,7 +36,7 @@ To break down the problem of drawing the map, start by identifying the smaller t
   
 <div align="center">
  
-  ![School]https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/schoolmap.png "School Map")
+  ![School Map](https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/schoolmap.png)
 
 </div>
 
@@ -86,12 +86,12 @@ This is a way of writing the program's logic in simple, step-by-step language.
 **Example**:  
 A pseudocode for adding two numbers might look like this:
 
-<div align="center">
-
-  ![Pseudocode]https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Pseudocode.png "Pseudocode")
-  
-</div>
- 
+```text
+INPUT number1
+INPUT number2
+SUM = number1 + number2
+OUTPUT SUM
+``` 
 # Coding
 
 ## Purpose of Coding
