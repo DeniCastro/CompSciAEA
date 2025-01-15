@@ -12,6 +12,6 @@ While accessing your GitHub account, accept the invitation the teacher will give
 ## STEP 2 Install Git
 If you don't have Git installed, download and install it from git-scm.com
 Run the following command in your terminal (Command Prompt, PowerShell, or Git Bash):
-'git clone https://github.com/username/repository-name.git'
+`git clone https://github.com/username/repository-name.git`
 
 
