@@ -25,3 +25,16 @@ Here are five types of computer systems people commonly use:
 3. Cloud Storage Services  
 4. Smart Home Devices (e.g., thermostats, lights)  
 5. Online Streaming Platforms  
+
+
+# The Computer Systems and Its Sub-systems
+
+## (Title) The Computer Systems and Its Sub-systems  
+
+In order to understand how a computer system is built and operates, it is often divided into **sub-systems**. This division is typically represented using **top-down design**, which produces **structure diagrams** to demonstrate the modular construction of the system.  
+
+Each sub-system can be developed by a programmer as a **sub-routine**. How each sub-routine works can be illustrated using **flowcharts** or **pseudocode**.  
+
+
+
+
