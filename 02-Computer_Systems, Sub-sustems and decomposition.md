@@ -51,4 +51,6 @@ Any problem that uses a computer system for its solution needs to be decomposed 
 - **Outputs**: Information that needs to be displayed or printed for the users of the system.  
 - **Storage**: Data that needs to be stored in files on an appropriate medium for use in the future.  
 
+Access the exercises on Google Classroom [Clicking Here](https://classroom.google.com/c/Njg3ODkxNDk2MDQ5?cjc=aog5o2b).
+
 
