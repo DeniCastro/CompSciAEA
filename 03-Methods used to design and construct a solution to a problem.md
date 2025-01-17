@@ -9,3 +9,7 @@ Solutions to problems need to be designed and developed rigorously. The use of f
 ## Structure Diagrams
 
 Structure diagrams can be used to show top-down design in a diagrammatic form. Structure diagrams are hierarchical, showing how a computer system solution can be divided into sub-systems with each level giving a more detailed breakdown. If necessary, each sub-system can be further divided.
+
+<div align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.2%20Basic%20structure%20diagram.jpg?raw=true" alt="Figure 7.2 Basic structure of diagram" width="500"> 
+</div>
