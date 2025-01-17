@@ -27,8 +27,6 @@ Here are five types of computer systems people commonly use:
 5. Online Streaming Platforms  
 
 
-# The Computer Systems and Its Sub-systems
-
 ## The Computer Systems and Its Sub-systems  
 
 In order to understand how a computer system is built and operates, it is often divided into **sub-systems**. This division is typically represented using **top-down design**, which produces **structure diagrams** to demonstrate the modular construction of the system.  
@@ -44,5 +42,13 @@ The process of breaking down into smaller sub-systems is called **stepwise refin
 This structured approach works for the development of both large and small computer systems. When larger computer systems are being developed, this approach allows several programmers to work independently to develop and test different sub-systems for the same system at the same time. This reduces both **development** and **testing time**.  
 
 
+### Decomposing a System  
+
+Any problem that uses a computer system for its solution needs to be decomposed into its **component parts**. The component parts of any computer system are:  
+
+- **Inputs**: The data used by the system that needs to be entered while the system is active.  
+- **Processes**: The tasks that need to be performed using the input data and any other previously stored data.  
+- **Outputs**: Information that needs to be displayed or printed for the users of the system.  
+- **Storage**: Data that needs to be stored in files on an appropriate medium for use in the future.  
 
 
