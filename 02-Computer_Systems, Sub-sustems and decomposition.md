@@ -29,11 +29,19 @@ Here are five types of computer systems people commonly use:
 
 # The Computer Systems and Its Sub-systems
 
-## (Title) The Computer Systems and Its Sub-systems  
+## The Computer Systems and Its Sub-systems  
 
 In order to understand how a computer system is built and operates, it is often divided into **sub-systems**. This division is typically represented using **top-down design**, which produces **structure diagrams** to demonstrate the modular construction of the system.  
 
 Each sub-system can be developed by a programmer as a **sub-routine**. How each sub-routine works can be illustrated using **flowcharts** or **pseudocode**.  
+
+**Top-down Design**  
+
+Top-down design is the **decomposition** of a computer system into a set of **sub-systems**, then breaking each sub-system down into a set of smaller sub-systems, until each sub-system performs a single action. This is an effective way of designing a computer system to provide a solution to a problem, as each part of the problem is broken down into smaller, more manageable problems.  
+
+The process of breaking down into smaller sub-systems is called **stepwise refinement**.  
+
+This structured approach works for the development of both large and small computer systems. When larger computer systems are being developed, this approach allows several programmers to work independently to develop and test different sub-systems for the same system at the same time. This reduces both **development** and **testing time**.  
 
 
 
