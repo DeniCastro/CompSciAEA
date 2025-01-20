@@ -39,7 +39,63 @@ Top-down design is the **decomposition** of a computer system into a set of **su
 
 The process of breaking down into smaller sub-systems is called **stepwise refinement**.  
 
-This structured approach works for the development of both large and small computer systems. When larger computer systems are being developed, this approach allows several programmers to work independently to develop and test different sub-systems for the same system at the same time. This reduces both **development** and **testing time**.  
+This structured approach works for the development of both large and small computer systems. When larger computer systems are being developed, this approach allows several programmers to work independently to develop and test different sub-systems for the same system at the same time. This reduces both **development** and **testing time**.    
+
+## Examples of Computer Systems and Sub-systems
+
+### Smartphone System
+
+**Sub-systems:**
+- User Interface (Touchscreen interaction, gestures, etc.)
+- Applications (Messaging, social media, games, etc.)
+- Hardware Control (Battery management, CPU, GPU)
+- Communication (Wi-Fi, Bluetooth, mobile data, calls)
+- Security (Biometric authentication, PIN, encryption)
+
+---
+
+### E-commerce Website
+
+**Sub-systems:**
+- User Management (Login, registration, profile management)
+- Product Catalogue (Browsing, searching, and filtering products)
+- Shopping Cart (Adding/removing items, calculating totals)
+- Payment Gateway (Processing payments securely)
+- Order Management (Order tracking, status updates, returns)
+
+---
+
+### Automated Teller Machine (ATM)
+
+**Sub-systems:**
+- User Interface (Keypad, touchscreen, card reader)
+- Account Verification (PIN validation, balance checks)
+- Transaction Processing (Withdrawals, deposits, fund transfers)
+- Cash Dispensing (Mechanism to count and dispense cash)
+- Security (CCTV integration, encryption, fraud detection)
+
+---
+
+### Online Learning Platform
+
+**Sub-systems:**
+- Course Management (Adding/removing courses, organising modules)
+- User Profiles (Students, teachers, admins)
+- Content Delivery (Video lectures, PDFs, quizzes)
+- Performance Tracking (Grades, progress dashboards)
+- Communication Tools (Forums, messaging, live classes)
+
+---
+
+### Hospital Management System
+
+**Sub-systems:**
+- Patient Records (Registration, medical history, prescriptions)
+- Appointment Scheduling (Doctors, rooms, timings)
+- Billing and Payments (Insurance integration, invoice generation)
+- Inventory Management (Medicines, medical equipment)
+- Reporting (Medical reports, analytics, compliance reports)
+
 
 
 ### Decomposing a System  
