@@ -20,4 +20,15 @@ Consider the alarm app computer system for a smart phone; this could be divided 
 
 <div align="center">
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.3%20Structure%20diagram%20for%20alarm%20app.jpg?raw=true" alt="Figure 7.3 Structure diagram for alarm app" width="500"> 
+</div>  
+
+## Flowcharts
+A flowchart shows diagrammatically the steps required to complete a task and the order that they are to be performed. These steps, together with the order, are called an algorithm. Flowcharts are an effective way to communicate how the algorithm that makes up a system or sub-system works.
+
+  ### Checking for the alarm time  
+  Have a look at a flowchart showing how the checking for the alarm time sub-system works.
+
+    
+  <div align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.4%20Flowchart%20for%20check%20time%20sub-system.jpg?raw=true" alt="Figure 7.4 Figure 7.4 Flowchart for check time sub-system" width="500"> 
 </div>
