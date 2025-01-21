@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/216443b0-eab1-45e5-91c5-26fa7e6515f3)# Methods Used to Design and Construct a Solution to a Problem
+# Methods Used to Design and Construct a Solution to a Problem
 
 Solutions to problems need to be designed and developed rigorously. The use of formal methods enables the process to be clearly shown for others to understand the proposed solution. The following methods need to be used by IGCSE Computer Science students:
 
