@@ -1,4 +1,4 @@
-# Methods Used to Design and Construct a Solution to a Problem
+![image](https://github.com/user-attachments/assets/216443b0-eab1-45e5-91c5-26fa7e6515f3)# Methods Used to Design and Construct a Solution to a Problem
 
 Solutions to problems need to be designed and developed rigorously. The use of formal methods enables the process to be clearly shown for others to understand the proposed solution. The following methods need to be used by IGCSE Computer Science students:
 
@@ -31,4 +31,18 @@ A flowchart shows diagrammatically the steps required to complete a task and the
     
   <div align="center">
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.4%20Flowchart%20for%20check%20time%20sub-system.jpg?raw=true" alt="Figure 7.4 Figure 7.4 Flowchart for check time sub-system" width="500"> 
-</div>
+</div>  
+
+### Flowcharts
+
+Flowcharts are drawn using standard flowchart symbols.
+
+- **Begin/End**  
+  Terminator flowchart symbols are used at the beginning and end of each flowchart.
+
+  <div align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.5%20Terminator%20symbols.jpg?raw=true" alt="Figure 7.4 Figure 7.4 Flowchart for check time sub-system" width="500"> 
+</div> 
+
+
+
