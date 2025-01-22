@@ -132,7 +132,7 @@ This structured approach works for the development of both large and small compu
 
 
 
-### Decomposing a System  
+## Decomposing a System  
 
 Any problem that uses a computer system for its solution needs to be decomposed into its **component parts**. The component parts of any computer system are:  
 
