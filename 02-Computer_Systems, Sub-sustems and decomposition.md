@@ -1,16 +1,14 @@
 # Computer Systems, Sub-systems, and Decomposition
 
-A **computer system** is made up of:  
+
+A **computer system** is made up of the following components:  
+
 - Software  
 - Data  
 - Hardware  
 - Communications  
 - People
 
-
-  ### Components of a Computer System
-
-A computer system is made up of the following components:
 
 1. **Software**  
    Software refers to the set of instructions or programs that enable hardware to perform specific tasks. It is classified into two main types:
