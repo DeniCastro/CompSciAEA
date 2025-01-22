@@ -5,7 +5,43 @@ A **computer system** is made up of:
 - Data  
 - Hardware  
 - Communications  
-- People  
+- People
+
+
+  ### Components of a Computer System
+
+A computer system is made up of the following components:
+
+1. **Software**  
+   Software refers to the set of instructions or programs that enable hardware to perform specific tasks. It is classified into two main types:
+   - **System Software**: Includes the operating system and utilities that manage hardware and basic system operations.
+   - **Application Software**: Programs designed for end-users, such as word processors, web browsers, and games.
+
+2. **Data**  
+   Data represents the raw information processed by the computer system. It can include:
+   - **Input Data**: Information entered into the system by users or sensors.
+   - **Stored Data**: Data kept in memory or storage for future use.
+   - **Output Data**: Processed information presented to the user.
+
+3. **Hardware**  
+   Hardware consists of the physical components of a computer system, such as:
+   - **Input Devices**: Keyboards, mice, microphones.
+   - **Processing Unit**: CPU (Central Processing Unit) and GPU (Graphics Processing Unit).
+   - **Storage Devices**: Hard drives, SSDs, and memory.
+   - **Output Devices**: Monitors, printers, speakers.
+
+4. **Communications**  
+   Communication components facilitate the exchange of data between systems or devices. Examples include:
+   - **Networking Hardware**: Routers, switches, and modems.
+   - **Protocols**: TCP/IP, HTTP, and FTP that govern data transfer.
+   - **Communication Channels**: Wired (Ethernet) or wireless (Wi-Fi, Bluetooth) connections.
+
+5. **People**  
+   People interact with the computer system to perform tasks or manage operations. They include:
+   - **End-users**: Individuals who use applications to complete specific tasks.
+   - **Developers**: Professionals who create software and systems.
+   - **Administrators**: Individuals who manage and maintain the system's performance and security.
+
 
 Each computer system can be divided into a set of **sub-systems**, which can further be broken down into smaller sub-systems until each sub-system performs a single action.
 
