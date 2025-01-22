@@ -11,18 +11,18 @@ A **computer system** is made up of the following components:
 
 
 1. **Software**  
-   Software refers to the set of instructions or programs that enable hardware to perform specific tasks. It is classified into two main types:
+   This refers to the set of instructions or programs that enable hardware to perform specific tasks. It is classified into two main types:
    - **System Software**: Includes the operating system and utilities that manage hardware and basic system operations.
    - **Application Software**: Programs designed for end-users, such as word processors, web browsers, and games.
 
 2. **Data**  
-   Data represents the raw information processed by the computer system. It can include:
+   This represents the raw information processed by the computer system. It can include:
    - **Input Data**: Information entered into the system by users or sensors.
    - **Stored Data**: Data kept in memory or storage for future use.
    - **Output Data**: Processed information presented to the user.
 
 3. **Hardware**  
-   Hardware consists of the physical components of a computer system, such as:
+   This consists of the physical components of a computer system, such as:
    - **Input Devices**: Keyboards, mice, microphones.
    - **Processing Unit**: CPU (Central Processing Unit) and GPU (Graphics Processing Unit).
    - **Storage Devices**: Hard drives, SSDs, and memory.
