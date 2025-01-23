@@ -56,5 +56,12 @@ The same flowchart symbol is used to show the input of data and output of inform
   
 <div align="center">
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.7%20Symbol%20used%20to%20show%20input%20and%20symbol%20used%20to%20show%20output.jpg?raw=true" alt="Figure 7.4 Figure 7.4 Flowchart for check time sub-system" width="500"> 
-</div>
+</div>  
+
+### Decision
+**Decision flowchart symbols** are used to decide which action is to be taken next; these can be used for selection and repetition/iteration. There are always two outputs from a decision flowchart symbol.  
+
+<div align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.8%20Decision%20symbol.jpg?raw=true" alt="Figure 7.4 Figure 7.4 Flowchart for check time sub-system" width="500"> 
+</div>  
 
