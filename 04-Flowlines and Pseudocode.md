@@ -8,7 +8,7 @@ Flow chart flow lines use arrows to show the direction of flow, which is usually
   
 ## Example 4: Concert Ticket Sales
 
-Tickets are sold for a concert at $20 each, if 10 tickets are brought the the discount is 10%, if 20 tickets are bought the discount it 20%. No more than 25 tickets can be bought in a single transaction.  
+Tickets are sold for a concert at $20 each, if 10 tickets are brought then the discount is 10%, if 20 tickets are bought the discount it 20%. No more than 25 tickets can be bought in a single transaction.  
 
 This is flowchart showing an algorithm to calculate the cost of buying a given number of tickets:
 
