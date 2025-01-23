@@ -44,5 +44,17 @@ Flowcharts are drawn using standard flowchart symbols.
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.5%20Terminator%20symbols.jpg?raw=true" alt="Figure 7.4 Figure 7.4 Flowchart for check time sub-system" width="500"> 
 </div> 
 
+### Process  
+**Process flowchart symbols** are used to show actions, for example, when values are assigned to variables. If a process has been defined elsewhere then the name of that process is shown.  
 
+<div align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.6%20Process%20symbols.jpg?raw=true" alt="Figure 7.4 Figure 7.4 Flowchart for check time sub-system" width="500"> 
+</div>   
+
+### Input and output  
+The same flowchart symbol is used to show the input of data and output of information.   
+  
+<div align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.7%20Symbol%20used%20to%20show%20input%20and%20symbol%20used%20to%20show%20output.jpg?raw=true" alt="Figure 7.4 Figure 7.4 Flowchart for check time sub-system" width="500"> 
+</div>
 
