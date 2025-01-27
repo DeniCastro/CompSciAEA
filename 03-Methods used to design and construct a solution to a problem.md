@@ -69,4 +69,5 @@ The same flowchart symbol is used to show the input of data and output of inform
 
   
 Access the complete guide to prepare for the next lessons, [Click Here](https://www.zenflowchart.com/flowchart-symbols).  
-[Exercises link](https://docs.google.com/document/d/1KDriCrUTdy76kZ2NiHLRQki8YkwyKQoLN_nhDifmYJc/edit?usp=sharing).
+  
+  [Exercises](https://docs.google.com/document/d/1KDriCrUTdy76kZ2NiHLRQki8YkwyKQoLN_nhDifmYJc/edit?usp=sharing).
