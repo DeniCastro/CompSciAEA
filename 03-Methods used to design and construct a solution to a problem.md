@@ -65,3 +65,4 @@ The same flowchart symbol is used to show the input of data and output of inform
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.8%20Decision%20symbol.jpg?raw=true" alt="Figure 7.4 Figure 7.4 Flowchart for check time sub-system" width="500"> 
 </div>  
 
+To access a more complete guide, [Click Here](https://www.zenflowchart.com/flowchart-symbols).
