@@ -27,3 +27,23 @@ The pseudocodde in this book is written in the following way to match the pseudo
 - all keywords  (words used to describe a specific action e.g. INPUT) are written in capital letters
 - all names given to data items and subroutines start with a capital letter
 - where conditional and loop statements are used, repeated or selected statements are indented by two spaces.
+
+  ## The pseudocode for an assignment statement
+
+  A value is assigned to an item/variable using the ← operator. The variable on the left of the ← is assigned the value of the expression on the right. The expression on the right can be a single value or several values combined with any of the following mathematical operators.
+
+  
+  <div align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Table%207.1%20Mathematical%20operators.jpg?raw=true" alt="Table 7.1 Mathematical Operators" width="500"> 
+</div>   
+
+Examples of pseudocode assignment statements:
+
+Cost  
+Price  
+Tax  
+SellingPrice  
+Gender  
+Chosen  
+
+  
