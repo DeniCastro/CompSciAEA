@@ -39,11 +39,11 @@ The pseudocodde in this book is written in the following way to match the pseudo
 
 Examples of pseudocode assignment statements:
 
-Cost  
-Price  
-Tax  
-SellingPrice  
-Gender  
-Chosen  
+**Cost** ← 10                      **Cost** has the value 10  
+**Price** ← Cost * 2               **Price** has the value 20
+**Tax** ← Price * 0.12             **Taxt** has the value 2.4  
+**SellingPrice** ← Price + Tax     **SellingPrice** has the value 22.4  
+**Gender** ← "M"                   **Gender** has the value **M**  
+**Chosen** ← False                 **Chosen** has the value **False**  
 
   
