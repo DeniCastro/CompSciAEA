@@ -14,7 +14,7 @@ Structure diagrams can be used to show top-down design in a diagrammatic form. S
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.2%20Basic%20structure%20diagram.jpg?raw=true" alt="Figure 7.2 Basic structure of diagram" width="500"> 
 </div>
 
-## Example 2: Alarm app for a smart phone 
+## Example 2: Alarm app for a smartphone 
 Consider the alarm app computer system for a smart phone; this could be divided into three sub-systems, setting the alarm, checking for the alarm time, sounding the alarm. These sub-systems could then be further sub-divided; a structure diagram makes the process clearer.
 
 
