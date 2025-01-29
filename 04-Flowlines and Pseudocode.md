@@ -44,6 +44,8 @@ Examples of pseudocode assignment statements:
 **Tax** ← Price * 0.12               **Tax** has the value 2.4  
 **SellingPrice** ← Price + Tax       **SellingPrice** has the value 22.4  
 **Gender** ← "M"                     **Gender** has the value **M**  
-**Chosen** ← False                   **Chosen** has the value **False**  
+**Chosen** ← False                   **Chosen** has the value **False**    
+
+## Download the examples and exercises [here](https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/cw4.docx)
 
   
