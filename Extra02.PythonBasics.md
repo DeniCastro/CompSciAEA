@@ -14,7 +14,7 @@ In programming, data type is an important concept.
 
 Variables can store data of different types, and different types can do different things.
 
-Python has the following data types built-in by default, in these categories  
+Python has the following data types built-in by default, in these categories:  
 
 <div align="center">
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Picture2.jpg" alt="Data types" width="500"> 
