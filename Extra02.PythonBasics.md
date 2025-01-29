@@ -8,19 +8,6 @@ Comments are lines that Python ignores. They are useful for explaining code.
 # Comments start with a # symbol
 ```
 
-## 1.2 Data types   
-
-In programming, data type is an important concept.
-
-Variables can store data of different types, and different types can do different things.
-
-Python has the following data types built-in by default, in these categories:  
-
-<div align="center">
-  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Picture2.jpg" alt="Data types" width="500"> 
-</div>   
-
-
 ## 2. What is a Variable and Why It Needs a Name
 A **variable** is a way to store data. It must have a **name** so we can use it later.
 
@@ -33,6 +20,21 @@ age = 25  # 'age' is the variable, 25 is its value
 - So we can reference and modify it later.
 - It helps make the code more readable.
 
+
+## 2.2 Data types   
+
+In programming, data type is an important concept.
+
+Variables can store data of different types, and different types can do different things.
+
+Python has the following data types built-in by default, in these categories:  
+
+<div align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Picture2.jpg" alt="Data types" width="500"> 
+</div>   
+
+  
+  
 ## 3. How to Make an Input That Receives a Variable
 We use the `input()` function to get user input.
 
