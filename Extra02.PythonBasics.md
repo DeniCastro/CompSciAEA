@@ -8,6 +8,12 @@ Comments are lines that Python ignores. They are useful for explaining code.
 # Comments start with a # symbol
 ```
 
+## 1.2 Data types 
+<div align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Picture2.jpg" alt="Data types" width="500"> 
+</div>   
+
+
 ## 2. What is a Variable and Why It Needs a Name
 A **variable** is a way to store data. It must have a **name** so we can use it later.
 
