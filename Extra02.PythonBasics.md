@@ -8,7 +8,14 @@ Comments are lines that Python ignores. They are useful for explaining code.
 # Comments start with a # symbol
 ```
 
-## 1.2 Data types 
+## 1.2 Data types   
+
+In programming, data type is an important concept.
+
+Variables can store data of different types, and different types can do different things.
+
+Python has the following data types built-in by default, in these categories  
+
 <div align="center">
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Picture2.jpg" alt="Data types" width="500"> 
 </div>   
