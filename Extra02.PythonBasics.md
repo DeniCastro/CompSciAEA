@@ -138,7 +138,7 @@ print("Exponentiation:", a ** b) # Output: 1000
 
 ---
 
-### **Exercise: Try This in a Python Compiler!**  
+### **Try This in a Python Compiler!**  
 
 Write a Python program that asks the user for two numbers, then prints the sum, difference, product, and quotient of the numbers.  
 
