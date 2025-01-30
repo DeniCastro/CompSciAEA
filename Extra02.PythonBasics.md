@@ -106,7 +106,7 @@ else:
     print("Error: Invalid operator. Please enter +, -, *, or /.")  # Handle invalid operator input
 
 
-
+```
 
 ### **Basic Instructions for Mathematical Operations in Python**  
 
