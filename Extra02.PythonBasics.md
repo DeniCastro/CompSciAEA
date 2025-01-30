@@ -68,4 +68,38 @@ else:  # 'else' runs if none of the above conditions are met
 Instead, it uses indentation to mark the end of an `if` block.
 
 ---
+# Basic Calculator in Python
+
+This simple calculator takes two numbers and an operator as input, then performs the selected mathematical operation.
+
+## Code Explanation:
+
+```python
+# First, we must get user input
+first_number = float(input("Enter first number: "))  # Asking the user to enter the first number
+operator = input("Enter an operator (+, -, *, /): ")  # Asking for the operator
+second_number = float(input("Enter second number: "))  # Asking the user to enter the second number
+
+# Perform calculation based on the operator
+if operator == "+":  # If the operator is addition
+    result = first_number + second_number  # Add the two numbers
+    print("Result:", result)  # Display the result
+
+elif operator == "-":  # If the operator is subtraction
+    result = first_number - second_number  # Subtract the second number from the first
+    print("Result:", result)  # Display the result
+
+elif operator == "*":  # If the operator is multiplication
+    result = first_number * second_number  # Multiply the two numbers
+    print("Result:", result)  # Display the result
+
+elif operator == "/":  # If the operator is division
+    if second_number != 0:  # Check if the second number is not zero to avoid division errors
+        result = first_number / second_number  # Perform division
+        print("Result:", result)  # Display the result
+    else:
+        print("Error: Division by zero is not allowed.")  # Display an error message for division by zero
+
+else:
+    print("Error: Invalid operator. Please enter +, -, *, or /.")  # Handle invalid operators
 
