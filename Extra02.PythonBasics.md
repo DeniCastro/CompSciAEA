@@ -68,38 +68,39 @@ else:  # 'else' runs if none of the above conditions are met
 Instead, it uses indentation to mark the end of an `if` block.
 
 ---
-# Basic Calculator in Python
 
-This simple calculator takes two numbers and an operator as input, then performs the selected mathematical operation.
+---
 
-## Code Explanation:
+### **Python Code with Comments**
+And here’s the Python version with inline comments.
 
 ```python
+# Basic Calculator in Python
+
 # First, we must get user input
-first_number = float(input("Enter first number: "))  # Asking the user to enter the first number
-operator = input("Enter an operator (+, -, *, /): ")  # Asking for the operator
-second_number = float(input("Enter second number: "))  # Asking the user to enter the second number
+first_number = float(input("Enter first number: "))  # Ask for the first number
+operator = input("Enter an operator (+, -, *, /): ")  # Ask for the mathematical operator
+second_number = float(input("Enter second number: "))  # Ask for the second number
 
 # Perform calculation based on the operator
-if operator == "+":  # If the operator is addition
-    result = first_number + second_number  # Add the two numbers
+if operator == "+":  # Check if the operator is addition
+    result = first_number + second_number  # Perform addition
     print("Result:", result)  # Display the result
 
-elif operator == "-":  # If the operator is subtraction
-    result = first_number - second_number  # Subtract the second number from the first
+elif operator == "-":  # Check if the operator is subtraction
+    result = first_number - second_number  # Perform subtraction
     print("Result:", result)  # Display the result
 
-elif operator == "*":  # If the operator is multiplication
-    result = first_number * second_number  # Multiply the two numbers
+elif operator == "*":  # Check if the operator is multiplication
+    result = first_number * second_number  # Perform multiplication
     print("Result:", result)  # Display the result
 
-elif operator == "/":  # If the operator is division
-    if second_number != 0:  # Check if the second number is not zero to avoid division errors
+elif operator == "/":  # Check if the operator is division
+    if second_number != 0:  # Ensure the denominator is not zero
         result = first_number / second_number  # Perform division
         print("Result:", result)  # Display the result
     else:
-        print("Error: Division by zero is not allowed.")  # Display an error message for division by zero
+        print("Error: Division by zero is not allowed.")  # Display an error message if dividing by zero
 
 else:
-    print("Error: Invalid operator. Please enter +, -, *, or /.")  # Handle invalid operators
-
+    print("Error: Invalid operator. Please enter +, -, *, or /.")  # Handle invalid operator input
