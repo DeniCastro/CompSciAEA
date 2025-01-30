@@ -72,7 +72,7 @@ Instead, it uses indentation to mark the end of an `if` block.
 ---
 
 ### **Python Code with Comments**
-And here’s the Python version with inline comments.
+Here's the calculator code with comments.
 
 ```python
 # Basic Calculator in Python
