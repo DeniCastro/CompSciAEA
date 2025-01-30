@@ -104,3 +104,70 @@ elif operator == "/":  # Check if the operator is division
 
 else:
     print("Error: Invalid operator. Please enter +, -, *, or /.")  # Handle invalid operator input
+
+
+
+
+### **Basic Instructions for Mathematical Operations in Python**  
+
+In Python, you can perform basic mathematical operations using the following symbols:  
+
+- **Addition (`+`)** → Adds two numbers.  
+- **Subtraction (`-`)** → Subtracts one number from another.  
+- **Multiplication (`*`)** → Multiplies two numbers.  
+- **Division (`/`)** → Divides one number by another and gives a decimal result.  
+- **Floor Division (`//`)** → Divides and gives the whole number part of the quotient.  
+- **Modulo (`%`)** → Gives the remainder of a division.  
+- **Exponentiation (`**`)** → Raises a number to a power.  
+
+#### **Example:**
+```python
+# Define two numbers
+a = 10
+b = 3
+
+# Perform operations and print results
+print("Addition:", a + b)      # Output: 13
+print("Subtraction:", a - b)   # Output: 7
+print("Multiplication:", a * b) # Output: 30
+print("Division:", a / b)      # Output: 3.3333
+print("Floor Division:", a // b) # Output: 3
+print("Modulo:", a % b)        # Output: 1
+print("Exponentiation:", a ** b) # Output: 1000
+```
+
+---
+
+### **Exercise: Try This in a Python Compiler!**  
+
+Write a Python program that asks the user for two numbers, then prints the sum, difference, product, and quotient of the numbers.  
+
+#### **Instructions:**  
+1. Use `input()` to get two numbers from the user.  
+2. Convert them to floats using `float()`.  
+3. Perform the four basic operations (`+`, `-`, `*`, `/`).  
+4. Print the results.  
+
+#### **Example Code to Complete:**
+```python
+# Ask the user for two numbers
+num1 = float(input("Enter the first number: "))  
+num2 = float(input("Enter the second number: "))  
+
+# Perform calculations
+sum_result = num1 + num2  
+sub_result = num1 - num2  
+mul_result = num1 * num2  
+div_result = num1 / num2  
+
+# Display results
+print("Sum:", sum_result)  
+print("Difference:", sub_result)  
+print("Product:", mul_result)  
+print("Quotient:", div_result)  
+```
+
+**Try running this in a Python compiler and see how it works!** 
+
+
+
