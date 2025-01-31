@@ -11,3 +11,9 @@ There are two types of conditional statement:
 
 For an **IF** condition the **THEN** path is followed if the condition is true and **ELSE** path is followed if the condition is false. There may or may not be an **ELSE** path is followed if the condition is false. There may or may not be an **ELSE** path. The end of the statement is shown by **ENDIF**.  
 
+There are different ways that an **IF** condition can be set up:  
+
+
+<div align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/IF%20condition%20Set%20Up.jpg" alt="Conditional Statements" width="500"> 
+</div>
