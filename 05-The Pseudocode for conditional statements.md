@@ -17,3 +17,9 @@ There are different ways that an **IF** condition can be set up:
 <div align="center">
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/IF%20condition%20Set%20Up.jpg" alt="Conditional Statements" width="500"> 
 </div>
+
+
+  
+<div align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Table%207.2%20Comparison%20operators.jpg" alt="Table 7.2 Comparison Operators" width="500"> 
+</div>  
