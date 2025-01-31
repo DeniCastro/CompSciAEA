@@ -36,4 +36,6 @@ Rewrite the algorithm to check for a mark between 0 and 20 and a pass mark of 10
 
 
 [Click here](https://pseudoeditor.com/app/)
-  
+
+## Challenge.
+Rewrite the algorithm on Python [here](https://www.programiz.com/python-programming/online-compiler/).
