@@ -23,3 +23,13 @@ There are different ways that an **IF** condition can be set up:
 <div align="center">
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Table%207.2%20Comparison%20operators.jpg" alt="Table 7.2 Comparison Operators" width="500"> 
 </div>  
+
+Have a look at the algorithm below that checks if a percentage mark is valid and whether it is a pass or a fail. This makes use of two IF statements; the second **IF** statement is part of the first **ELSE** path. This is called a **nestled IF**.
+
+  
+<div align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Pass%20or%20Fail%20algorithm.jpg" alt="Pass or Fail algorithm" width="500"> 
+</div>  
+  
+### Activity 7.4
+Rewrite the algorithm to check for a mark between 0 and 20 and a pass mark of 10
