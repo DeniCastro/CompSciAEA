@@ -32,4 +32,8 @@ Have a look at the algorithm below that checks if a percentage mark is valid and
 </div>  
   
 ### Activity 7.4
-Rewrite the algorithm to check for a mark between 0 and 20 and a pass mark of 10
+Rewrite the algorithm to check for a mark between 0 and 20 and a pass mark of 10 on the link below.
+
+
+[Click here](https://pseudoeditor.com/app/)
+  
