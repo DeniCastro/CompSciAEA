@@ -27,6 +27,22 @@ A variable is set up, with a start value and an end value, this variable is incr
 
 <div align="center"> 
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/for...to...next%20loops.jpg" alt="FOR ... TO... NEXT Loops" width="500"> 
-</div>
+</div>  
 
+## REPEAT ... UNTIL loop  
+This loop structure is used when the number of repetitions/iterations is not known and the actions are repeated **UNTIL*** a given condition becomes true. The actions in this loop are always completed at least once. This is a post-condition loop as the test for exiting the loop is at the end of the loop.  
+
+<div align="center"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/REPEAT...%20UNTIL...%20loop.jpg" alt="REPEAT ... UNTIL" width="500"> 
+</div>    
   
+## WHILE ... DO ... ENDWHILE loop  
+This loop structure is used when the number of repetitions/iterations is not known and the action are only repeated **WHILE** a given condition is true. If the **WHILE** condition is untrue then the actions in this loop are never performed. This is a pre-condition loop as the test for exiting the loop is at the beginning of the loop.  
+
+<div align="center"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/WHILE...%20DO...%20ENDWHILE%20loop.jpg" alt="WHILE... DO... ENDWHILE loop" width="500"> 
+</div>  
+
+
+
+
