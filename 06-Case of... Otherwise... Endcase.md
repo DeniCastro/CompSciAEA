@@ -4,5 +4,6 @@ Several values are usually specified. **OTHERWISE** is the path taken for all ot
 
 Have a look at the algorithm below that specifies what happens if the value of **Choice** is **1**, **2**, **3** or **4**.  
 
-<img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/CASE%20OF%20Choice.jpg" alt="CASE OF Choice" width="500"> 
+<div align="center"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/CASE%20OF%20Choice.jpg" alt="CASE OF Choice" width="500"> 
 </div>
