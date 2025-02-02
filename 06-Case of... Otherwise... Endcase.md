@@ -22,5 +22,11 @@ All types of loops can all perform the same task, for example displaying ten sta
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/loop_structure.jpg" alt="CASE OF Choice" width="500"> 
 </div>
 
+## For ... TO... NEXT loops  
+A variable is set up, with a start value and an end value, this variable is incremented in steps of one until the end value is reached and the iteration finishes. The variable can be used within the loop so long as its value is not changed. This type of loop is very useful for reading values into lists with a known length.    
+
+<div align="center"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/for...to...next%20loops.jpg" alt="FOR ... TO... NEXT Loops" width="500"> 
+</div>
 
   
