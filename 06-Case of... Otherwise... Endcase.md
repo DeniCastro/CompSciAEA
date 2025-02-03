@@ -41,8 +41,101 @@ This loop structure is used when the number of repetitions/iterations is not kno
 
 <div align="center"> 
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/WHILE...%20DO...%20ENDWHILE%20loop.jpg" alt="WHILE... DO... ENDWHILE loop" width="500"> 
-</div>  
+</div>    
 
 
+# Loops in Programming – A Simple Guide for Kids
 
+Loops are like magic spells in programming! 🧙✨ They help us repeat something over and over again without writing the same instructions multiple times.
+
+Imagine you have to write “Hello!” 100 times. That would take a long time! Instead, we can use loops to tell the computer, **“Hey, repeat this for me!”**
+
+There are three types of loops we’ll learn:
+
+1. **For Loop** – When we know how many times to repeat.
+2. **Repeat Until Loop** – When we repeat **until** something happens.
+3. **While Loop** – When we keep repeating **as long as** something is true.
+
+---
+
+## 1️⃣ For Loop
+A **For Loop** is used when we already know how many times we want to repeat something.
+
+### **Pseudocode Example:**
+```
+FOR i FROM 1 TO 5 DO
+    OUTPUT "Hello!"
+NEXT i
+```
+### **How it works:**
+1. Start with `i = 1`.
+2. Print "Hello!".
+3. Add 1 to `i`.
+4. If `i` reaches 5, stop.
+
+### **Python Code:**
+```python
+for i in range(1, 6):  # The loop repeats 5 times (1 to 5)
+    print("Hello!")
+```
+
+---
+
+## 2️⃣ Repeat Until Loop
+A **Repeat Until Loop** repeats the action **until** a condition becomes true.
+
+### **Pseudocode Example:**
+```
+REPEAT
+    OUTPUT "Keep going!"
+UNTIL user_input = "stop"
+```
+### **How it works:**
+1. Print "Keep going!".
+2. Ask the user for input.
+3. If they type "stop", the loop ends.
+
+### **Python Code:**
+Python does not have `REPEAT UNTIL`, but we can use a `while` loop to do the same thing.
+```python
+user_input = ""
+while user_input != "stop":  # Keep repeating until the user types "stop"
+    print("Keep going!")
+    user_input = input("Type 'stop' to end: ")
+```
+
+---
+
+## 3️⃣ While Loop
+A **While Loop** repeats **as long as** a condition is true.
+
+### **Pseudocode Example:**
+```
+WHILE counter < 3 DO
+    OUTPUT "Counting..."
+    counter ← counter + 1
+ENDWHILE
+```
+### **How it works:**
+1. Start with `counter = 0`.
+2. Print "Counting...".
+3. Add 1 to `counter`.
+4. If `counter` reaches 3, stop.
+
+### **Python Code:**
+```python
+counter = 0
+while counter < 3:
+    print("Counting...")
+    counter += 1  # Increase counter by 1
+```
+
+---
+
+### 🔥 Summary
+| Loop Type          | When to Use It | Example |
+|-------------------|--------------|---------|
+| **For Loop**     | When we know how many times to repeat | Counting from 1 to 10 |
+| **Repeat Until** | When we stop when a condition is met | Asking for a password until it's correct |
+| **While Loop**   | When we keep repeating while a condition is true | Counting down until a timer reaches 0 |
 
