@@ -44,7 +44,7 @@ This loop structure is used when the number of repetitions/iterations is not kno
 </div>    
 
 
-# Loops in Programming – A Simple Guide for Kids
+# Loops in Programming – Extended + Python
 
 Loops are like magic spells in programming! 🧙✨ They help us repeat something over and over again without writing the same instructions multiple times.
 
