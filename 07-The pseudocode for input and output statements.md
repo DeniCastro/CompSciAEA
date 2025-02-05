@@ -8,6 +8,8 @@ Sometimes **READ** can be used instead of **INPUT** but this is usually used for
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/INPUT.jpg?raw=true" alt="INPUT" width="500"> 
 </div>  
   
+**OUTPUT** is used to display information either on a screen or printed on paper; it is usually followed by a single value that is a string or a variable, or a list of values separated by commas, for example:  
+
 <div align="center"> 
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/OUTPUT.jpg?raw=true" alt="OUTPUT" width="500"> 
 </div>  
