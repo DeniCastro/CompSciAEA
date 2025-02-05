@@ -13,8 +13,3 @@ Sometimes **READ** can be used instead of **INPUT** but this is usually used for
 <div align="center"> 
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/OUTPUT.jpg?raw=true" alt="OUTPUT" width="500"> 
 </div>  
-
-<div align="center"> 
-  <img src="" alt="" width="500"> 
-</div>  
-
