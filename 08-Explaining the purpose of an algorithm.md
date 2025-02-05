@@ -9,5 +9,5 @@ You will be able to practise this skill as you become more familiar with writing
 
 
 <div align="center"> 
-  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Activity%207_6.jpg?raw=true" alt="Activity 7.6" width="500"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Activity%207_6.jpg?raw=true" alt="Activity 7.6" width="900"> 
 </div>
