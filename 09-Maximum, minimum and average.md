@@ -76,7 +76,143 @@ For example, using this method to find the highest and lowest mark awarded to a 
 
 <div align="center"> 
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Maximum%2C%20minimum%20and%20average2.jpg" alt="Maximum, minimum and average 2" width="850"> 
-</div>
+</div>  
+
+
+# Finding Maximum and Minimum in a List (Step-by-Step Explanation)
+
+## **Understanding the Algorithm**
+
+This pseudocode finds the **highest (maximum) and lowest (minimum) marks** from a list of student marks.
+
+### **Pseudocode:**
+```plaintext
+MaximumMark ← StudentMark[1]
+MinimumMark ← StudentMark[1]  
+FOR Counter ← 2 TO ClassSize
+	IF StudentMark[Counter] > MaximumMark
+		THEN
+			MaximumMark ← StudentMark[Counter]
+	ENDIF
+	IF StudentMark[Counter] < MinimumMark
+		THEN
+			MinimumMark ← StudentMark[Counter]
+	ENDIF
+NEXT Counter
+```
+
+## **Breaking It Down**
+
+### **Step 1: Initialize Maximum and Minimum**
+```plaintext
+MaximumMark ← StudentMark[1]
+MinimumMark ← StudentMark[1]  
+```
+- The **first student's mark** is set as both the `MaximumMark` and `MinimumMark`.
+- This assumes we have at least one student in the list.
+
+📌 **Why do we start with the first student's mark?**
+- Instead of setting arbitrary values like `0` or `100`, we assume the first mark is the highest and lowest.
+- As we loop through the rest of the students, we will update these values accordingly.
+
+---
+
+### **Step 2: Loop Through the Remaining Students**
+```plaintext
+FOR Counter ← 2 TO ClassSize
+```
+- The loop starts at `2` (the second student) because we already used the first student’s mark.
+- It goes up to `ClassSize` (the total number of students).
+
+---
+
+### **Step 3: Check for a New Maximum**
+```plaintext
+IF StudentMark[Counter] > MaximumMark
+    THEN
+        MaximumMark ← StudentMark[Counter]
+ENDIF
+```
+- If the current student's mark is **greater than** `MaximumMark`, we update `MaximumMark`.
+
+👉 **Example:**
+Given these marks: `[55, 78, 90, 82]`
+- Start: `MaximumMark = 55`
+- Compare: `78 > 55` → Yes, update `MaximumMark = 78`
+- Compare: `90 > 78` → Yes, update `MaximumMark = 90`
+- Compare: `82 > 90` → No change
+
+At the end, the highest mark is **90**.
+
+---
+
+### **Step 4: Check for a New Minimum**
+```plaintext
+IF StudentMark[Counter] < MinimumMark
+    THEN
+        MinimumMark ← StudentMark[Counter]
+ENDIF
+```
+- If the current student's mark is **less than** `MinimumMark`, we update `MinimumMark`.
+
+👉 **Example:**
+Given these marks: `[55, 78, 90, 82]`
+- Start: `MinimumMark = 55`
+- Compare: `78 < 55` → No change
+- Compare: `90 < 55` → No change
+- Compare: `82 < 55` → No change
+
+At the end, the lowest mark is **55**.
+
+---
+
+### **Step 5: Move to the Next Student**
+```plaintext
+NEXT Counter
+```
+- The loop continues for the next student until all students have been checked.
+
+---
+
+## **How to Convert This to Python**
+
+Here’s the equivalent **Python code:**
+
+```python
+# Sample list of student marks
+StudentMark = [55, 78, 90, 82]
+
+# Initialize max and min with the first student's mark
+MaximumMark = StudentMark[0]
+MinimumMark = StudentMark[0]
+
+# Loop through the remaining students
+for i in range(1, len(StudentMark)):
+    if StudentMark[i] > MaximumMark:
+        MaximumMark = StudentMark[i]  # Update highest mark
+    if StudentMark[i] < MinimumMark:
+        MinimumMark = StudentMark[i]  # Update lowest mark
+
+# Print results
+print("Highest mark:", MaximumMark)
+print("Lowest mark:", MinimumMark)
+```
+
+👉 **Output:**
+```
+Highest mark: 90
+Lowest mark: 55
+```
+
+---
+
+## **Key Takeaways**
+✅ **Always initialize max and min with the first value in the list.**
+✅ **Loop through the remaining elements and update the values when necessary.**
+✅ **This method works for any list size, as long as there is at least one value.**
+
+---
+
   
 Calculating the average (mean) of all the values in a list is an extension of the totalling method, for example, calculating the average mark for a class of students.
   
