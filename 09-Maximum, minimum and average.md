@@ -221,6 +221,56 @@ Lowest mark: 55
 Calculating the average (mean) of all the values in a list is an extension of the totalling method, for example, calculating the average mark for a class of students.
   
 <div align="center"> 
-  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Maximum%2C%20minimum%20and%20average3.jpg" alt="Maximum, Minimum and average" width="850"> 
-</div>
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Maximum%2C%20minimum%20and%20average3.jpg" alt="Maximum, Minimum and average" width="500"> 
+</div>  
+
+## Understanding Total and Average Calculation in Pseudocode
+
+### Algorithm Explanation
+This algorithm calculates the total and average of student marks. It follows these steps:
+
+1. **Initialize Total**: Set `Total` to 0 before starting.
+2. **Loop Through Student Marks**: Use a `FOR` loop to go through each student’s mark.
+3. **Add Each Mark to Total**: Keep summing up student marks.
+4. **Calculate Average**: Divide the total sum by the number of students (`ClassSize`).
+
+### Pseudocode Representation
+```pseudocode
+Total ← 0  // Start with zero total
+FOR Counter ← 1 TO ClassSize  // Loop through each student
+    Total ← Total + StudentMark[Counter]  // Add the mark to total
+NEXT Counter
+Average ← Total / ClassSize  // Compute the average
+```
+
+### How This Works
+- **Total ← 0**: Starts with an empty sum.
+- **FOR Counter ← 1 TO ClassSize**: Loops through all student marks.
+- **Total ← Total + StudentMark[Counter]**: Adds each student's mark to `Total`.
+- **NEXT Counter**: Moves to the next student until all are counted.
+- **Average ← Total / ClassSize**: Computes the class average.
+
+### Python Conversion
+Here’s how we implement this in Python:
+
+```python
+# List of student marks
+student_marks = [78, 85, 90, 66, 72]  # Example marks
+class_size = len(student_marks)  # Number of students
+
+total = 0  # Initialize total
+
+# Loop through each student mark
+for mark in student_marks:
+    total += mark  # Add each mark to total
+
+# Calculate the average
+average = total / class_size
+
+print("Total Marks:", total)
+print("Class Average:", average)
+```
+
+
+
   
