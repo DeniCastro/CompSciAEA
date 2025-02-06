@@ -10,16 +10,19 @@ MaximumMark is set to 0. This assumes that no student will have a mark lower tha
 MinimumMark is set to 100. This assumes that no student will score more than 100.  
 We start with extreme values and update them when we find a real student mark that is higher or lower.    
 
-```FOR Counter ← 1 TO ClassSize```  
+```
+FOR Counter ← 1 TO ClassSize
+```  
 
 This means repeat the following steps for each student in the class.
 Counter starts at 1 (representing the first student) and goes up to ClassSize (total number of students).
   
-  ``IF StudentMark[Counter] > MaximumMark
+  ```
+IF StudentMark[Counter] > MaximumMark
     THEN
         MaximumMark ← StudentMark[Counter]
 ENDIF
- ``    
+ ```    
  
   📌 What does this do?  
 
@@ -35,11 +38,12 @@ Compare: 90 > 78 → Yes, so MaximumMark = 90
 Compare: 82 > 90 → No, so MaximumMark stays 90  
 At the end, the highest mark found is 90.  
   
-``IF StudentMark[Counter] < MinimumMark
+```
+IF StudentMark[Counter] < MinimumMark
     THEN
         MinimumMark ← StudentMark[Counter]
 ENDIF
-``  
+```  
 📌 What does this do?
 
 It checks if the current student’s mark is lower than MinimumMark.
