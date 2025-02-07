@@ -23,6 +23,11 @@ Imagine you are searching for a name in a class list of student names, where all
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Linear%20Search%202.jpg" alt="Linear Search 2" width="800"> 
 </div>      
 
+
+
+<div align="center"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Linear%20Search%203.jpg" alt="Linear Search 3" width="800"> 
+</div>  
   
 ## Pseudocode for Linear Search
 ```plaintext
@@ -156,10 +161,6 @@ print(ChoiceCount, "chose ice cream as their favorite dessert.")
 Now, try modifying the list to count other dessert choices! 🍨🎂🍪
 
 
-
-<div align="center"> 
-  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Linear%20Search%203.jpg" alt="Linear Search 3" width="800"> 
-</div>  
   
 ## 7.4.5 Bubble sort  
 Lists can be more useful if the items are sorted in a meaningful order. For example, name could be sorted in alphabetical order, or temperatures could be sorted in ascending or descending order. There are several standard sorting methods available, but you only need to understand one method for IGCSE Computer Science.  
