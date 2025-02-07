@@ -271,6 +271,80 @@ print("Total Marks:", total)
 print("Class Average:", average)
 ```
 
+# Bubble Sort Algorithm Explained
+
+## Introduction to Sorting
+
+Sorting is a way to arrange items in a meaningful order, such as:
+- Sorting names in alphabetical order
+- Sorting temperatures from lowest to highest (ascending) or highest to lowest (descending)
+
+There are several sorting methods available, but for IGCSE Computer Science, you only need to understand **Bubble Sort**.
+
+---
+
+## What is Bubble Sort?
+
+Bubble Sort is a simple sorting algorithm that works by repeatedly **comparing** and **swapping** adjacent elements if they are in the wrong order.
+
+### How Bubble Sort Works:
+1. Start from the **first** element and compare it with the next.
+2. If the **first element is greater**, swap them.
+3. Move to the next pair and repeat until the **last element**.
+4. After one full pass, the **largest element** is at the end.
+5. Repeat the process for the remaining elements, ignoring the last sorted ones.
+6. The algorithm stops when no more swaps are needed.
+
+---
+
+## Example: Sorting Temperatures in Ascending Order
+
+Let's say we have a list of **10 temperatures** stored in an array `Temperature[]`. We want to sort them from **lowest to highest** using Bubble Sort.
+
+### Bubble Sort in Pseudocode
+
+```
+First ← 1
+Last ← 10
+REPEAT
+    Swap ← False
+    FOR Index ← First TO Last - 1
+        IF Temperature[Index] > Temperature[Index + 1]
+            THEN
+                Temp ← Temperature[Index]
+                Temperature[Index]  ← Temperature[Index + 1]
+                Temperature[Index + 1] ← Temp
+                Swap ← TRUE
+        ENDIF
+    NEXT Index
+    Last ← Last -1
+UNTIL (NOT Swap) OR Last = 1
+```
+
+### Explanation of Pseudocode
+- **First ← 1, Last ← 10** → Start at the first element and go until the last element.
+- **Swap ← False** → Assume no swaps will happen.
+- **FOR Index ← First TO Last - 1** → Loop through the list.
+- **IF Temperature[Index] > Temperature[Index + 1]** → Compare two adjacent values.
+- **Swap values** → If they are in the wrong order, swap them.
+- **Swap ← TRUE** → A swap occurred, so we must check again.
+- **Last ← Last - 1** → Reduce the range after each pass (because the largest value is already at the end).
+- **UNTIL (NOT Swap) OR Last = 1** → Stop when no swaps are needed.
+
+---
+
+## Why Use Bubble Sort?
+✅ **Simple and easy to understand**
+✅ **No extra memory needed** (works in place)
+❌ **Not very efficient for large lists** (better methods like QuickSort exist)
+
+---
+
+## Conclusion
+Bubble Sort is an easy way to sort numbers or names by comparing and swapping elements. While it's not the fastest sorting method, it's a great way to understand how sorting works in programming!
+
+Would you like to see Bubble Sort implemented in Python? Let me know! 🚀
+
 
 
   
