@@ -243,10 +243,7 @@ UNTIL (NOT Swap) OR Last = 1
 
 ---
 
-## Conclusion
+
 Bubble Sort is an easy way to sort numbers or names by comparing and swapping elements. While it's not the fastest sorting method, it's a great way to understand how sorting works in programming!
-
-Would you like to see Bubble Sort implemented in Python? Let me know! 🚀
-
 
 
