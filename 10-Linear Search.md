@@ -92,6 +92,69 @@ else:
 
 This method is useful for small lists and when searching for a value without knowing its exact position in advance. 🚀
 
+# Counting Occurrences in a List
+
+## Introduction
+This method is useful for small lists and when searching for a value without knowing its exact position in advance. Instead of just checking whether a value exists in a list, we count how many times it appears.
+
+For example, if we want to find how many students in a class have chosen "ice cream" as their favourite dessert, we can use a loop to count each occurrence.
+
+---
+
+## Pseudocode
+```plaintext
+ChoiceCount ← 0
+FOR Counter ← 1 TO Length
+    IF "ice cream" = Dessert[Counter] THEN
+        ChoiceCount ← ChoiceCount + 1
+NEXT Counter
+OUTPUT ChoiceCount, "chose ice cream as their favorite dessert."
+```
+
+### Explanation of Pseudocode
+1. **Initialize the counter:** We start by setting `ChoiceCount` to 0. This variable will store the number of times "ice cream" appears in the list.
+2. **Loop through the list:** We iterate through all elements of the `Dessert` list using a `FOR` loop.
+3. **Check for a match:** Inside the loop, we check if the current dessert choice is "ice cream".
+4. **Increase the counter:** If a match is found, we increase `ChoiceCount` by 1.
+5. **Output the result:** After the loop finishes, we display how many times "ice cream" was chosen.
+
+---
+
+## Converting Pseudocode to Python
+Below is how we can implement this algorithm in Python:
+
+```python
+# List of dessert choices
+Dessert = ["cake", "ice cream", "pie", "ice cream", "cookies", "ice cream"]
+
+# Initialize counter
+ChoiceCount = 0
+
+# Loop through each dessert choice
+for dessert in Dessert:
+    if dessert == "ice cream":
+        ChoiceCount += 1
+
+# Output result
+print(ChoiceCount, "chose ice cream as their favorite dessert.")
+```
+
+### Explanation of Python Code
+1. We define a list `Dessert` containing different dessert choices.
+2. We initialize `ChoiceCount` to 0.
+3. We use a `for` loop to go through each item in `Dessert`.
+4. If the current dessert is "ice cream", we increase `ChoiceCount` by 1.
+5. Finally, we print the result.
+
+---
+
+## Summary
+- This method is helpful for counting occurrences of an item in a list.
+- We use a loop to check each item and update a counter variable.
+- The concept applies to many real-world problems, such as counting votes or tracking responses in surveys.
+
+Now, try modifying the list to count other dessert choices! 🍨🎂🍪
+
 
 
 <div align="center"> 
