@@ -153,4 +153,3 @@ print("Sorted list:", numbers)
 
 ---
 
-These explanations and examples should help beginners understand key concepts in algorithms! 🚀
