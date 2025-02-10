@@ -151,5 +151,12 @@ for i in range(n-1):
 print("Sorted list:", numbers)
 ```
 
----
+---  
 
+## Useful Resources
+
+### Computer Science 
+
+- [Chapter 8 - Programming: If Statement, If Then Else, Case Statement](https://www.youtube.com/watch?v=A7MPjYfGmDc&ab_channel=SpringColours)
+- [Linear Search](https://www.youtube.com/watch?v=OqOb7hQ1cMw&ab_channel=Craig%27n%27Dave)
+- [Bubble Sort (CAMBRIDGE IGCSE 0478-0984)](https://www.youtube.com/watch?v=lVBYtXxuZiM&ab_channel=Craig%27n%27Dave)
