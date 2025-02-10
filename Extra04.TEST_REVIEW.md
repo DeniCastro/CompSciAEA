@@ -1,6 +1,6 @@
-# Introduction to Algorithms for Beginners
+# Introduction to Algorithms for
 
-## What is an Algorithm?
+
 An **algorithm** is a step-by-step set of instructions to solve a problem. Think of it like a recipe: you follow the steps to make a dish, just like a computer follows an algorithm to solve a problem.
 
 ## Conditional Statements (IF-ELSE)
