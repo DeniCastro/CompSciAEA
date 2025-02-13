@@ -20,19 +20,19 @@ There are many different types of validation checks including:
 Different types of check may be used on the same piece of data; for example, an examination mark could be checked for reasonableness by using a range check, a type check and a presence check.  
 
 <div align="center"> 
-  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Range%20Check.jpg" alt="Range Check" width="800"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Range%20Check.jpg" alt="Range Check" width="500"> 
 </div>        
-
+   
 <div align="center"> 
-  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Length%20Check%202.jpg" alt="Length Check" width="800"> 
-</div>      
-
-<div align="center"> 
-  <img src="" alt="" width="800"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Length%20Check.jpg" alt="Length Check" width="500"> 
 </div>       
 
 <div align="center"> 
-  <img src="" alt="" width="800"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Length%20Check%202.jpg" alt="Length Check 2" width="800"> 
+</div>  
+
+<div align="center"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Type%20Check%20and%20Presence%20Check.jpg" alt="Type Check and Presence Check" width="800"> 
 </div>        
 <div align="center"> 
   <img src="" alt="" width="800"> 
