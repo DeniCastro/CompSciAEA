@@ -61,7 +61,8 @@ omitted or extra digits, for example, 537 instead of 5307 or 53107 instead of 53
 <div align="center"> 
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Actiity%207.7.jpg" alt="Activity 7.7" width="800"> 
 </div>      
-
+  
+[Access the complete explanation here.](https://www.youtube.com/watch?v=jCpCOxbitPM&ab_channel=PerhloAcademy2)
 
 
 
