@@ -24,7 +24,7 @@ Different types of check may be used on the same piece of data; for example, an 
 </div>        
 
 <div align="center"> 
-  <img src="" alt="" width="800"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Length%20Check%202.jpg" alt="Length Check" width="800"> 
 </div>      
 
 <div align="center"> 
