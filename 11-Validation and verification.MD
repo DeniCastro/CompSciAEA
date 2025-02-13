@@ -36,11 +36,29 @@ Different types of check may be used on the same piece of data; for example, an 
 </div>          
 
 <div align="center"> 
-  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.12%20Presence%20check%20error%20message.jpg" alt="Figure " width="800">   
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.12%20Presence%20check%20error%20message.jpg" alt="Figure " width="200">   
+  
+### **Format check and check digit**
+  
+A **format check** checks that the charactes entered conformt to a pre-defined pattern, for example, in Chapter 9 the cub number must be in theform CUB9999. The pseudocode for this example will be given in the string handling section of Chapter 9.  
+A **check digit** is the final digit included in a code; it is calculated from all the other digits in the code. Check digits are used for barcodes, product codes, International Standard Book Numbers (ISBN) and Vehicle Identification Numbers (VIN).  
+Check digits are used to identify errors in data entry caused by mis-typig or mis-scanning a barcode. They can usually detect the following types of error:  
+- an incorrect digit entered, for example, 5327 entered instead of 5307  
+- transposition errors where two numbers have changed order for example 5037 instead of 5307  
+omitted or extra digits, for example, 537 instead of 5307 or 53107 instead of 5307  
+- phonetic errors, for example, 13, thirteen, instead of 30, thirty.  
+
+
 
 </div>        
 <div align="center"> 
-  <img src="" alt="" width="800"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.13%20ISBN%2013%20Code%20with%20check%20digit.jpg" alt="Figure 7.13" width="200"> 
+</div>      
+
+
+</div>        
+<div align="center"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Actiity%207.7.jpg" alt="Activity 7.7" width="800"> 
 </div>      
 
 
