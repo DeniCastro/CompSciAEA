@@ -36,7 +36,7 @@ Different types of check may be used on the same piece of data; for example, an 
 </div>          
 
 <div align="center"> 
-  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.12%20Presence%20check%20error%20message.jpg" alt="Figure " width="200">   
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.12%20Presence%20check%20error%20message.jpg" alt="Figure " width="500">   
   
 ### **Format check and check digit**
   
