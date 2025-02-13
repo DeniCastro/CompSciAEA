@@ -8,9 +8,42 @@ Verification is used to check that the data does not change as it is being enter
 
 There are many different types of validation checks including:  
 
+<> center
 - **range checks**  
 - **length checks**
 - **type checks**
 - **presence checks**
 - **format checks**
-- **check digits**
+- **check digits**  
+</> center  
+
+Different types of check may be used on the same piece of data; for example, an examination mark could be checked for reasonableness by using a range check, a type check and a presence check.  
+
+<div align="center"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Range%20Check.jpg" alt="Range Check" width="800"> 
+</div>        
+
+<div align="center"> 
+  <img src="" alt="" width="800"> 
+</div>      
+
+<div align="center"> 
+  <img src="" alt="" width="800"> 
+</div>       
+
+<div align="center"> 
+  <img src="" alt="" width="800"> 
+</div>        
+<div align="center"> 
+  <img src="" alt="" width="800"> 
+</div>        
+<div align="center"> 
+  <img src="" alt="" width="800"> 
+</div>      
+
+
+
+
+
+
+
