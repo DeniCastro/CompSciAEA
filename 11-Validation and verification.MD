@@ -28,14 +28,16 @@ Different types of check may be used on the same piece of data; for example, an 
 </div>       
 
 <div align="center"> 
-  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Length%20Check%202.jpg" alt="Length Check 2" width="800"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Length%20Check%202.jpg" alt="Length Check 2" width="500"> 
 </div>  
 
 <div align="center"> 
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Type%20Check%20and%20Presence%20Check.jpg" alt="Type Check and Presence Check" width="800"> 
-</div>        
+</div>          
+
 <div align="center"> 
-  <img src="" alt="" width="800"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.12%20Presence%20check%20error%20message.jpg" alt="Figure " width="800">   
+
 </div>        
 <div align="center"> 
   <img src="" alt="" width="800"> 
