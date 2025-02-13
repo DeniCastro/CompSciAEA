@@ -37,7 +37,8 @@ Different types of check may be used on the same piece of data; for example, an 
 
 <div align="center"> 
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.12%20Presence%20check%20error%20message.jpg" alt="Figure " width="500">   
-  
+</div>        
+
 ### **Format check and check digit**
   
 A **format check** checks that the charactes entered conformt to a pre-defined pattern, for example, in Chapter 9 the cub number must be in theform CUB9999. The pseudocode for this example will be given in the string handling section of Chapter 9.  
