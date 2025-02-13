@@ -32,7 +32,7 @@ Different types of check may be used on the same piece of data; for example, an 
 </div>  
 
 <div align="center"> 
-  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Type%20Check%20and%20Presence%20Check.jpg" alt="Type Check and Presence Check" width="800"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Type%20Check%20and%20Presence%20Check.jpg" alt="Type Check and Presence Check" width="500"> 
 </div>          
 
 <div align="center"> 
