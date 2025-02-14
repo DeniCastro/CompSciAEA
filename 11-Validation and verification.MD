@@ -75,6 +75,7 @@ For **double entry** the data is entered twice, somethimes by different operator
 </div>        
 <div align="center"> 
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.14%20-%20Double%20Entry.jpg" alt="Figure 7.14" width="500"> 
-</div>     
+</div>       
 
+A **screen/visual check** is a manual check completed by the user who is entering the data. When the data entry is complete the data is displayed on the screen and the user is asked to confirm that it is correct before continuing. The user either checks the data on the screen against a paper document that is being used as an input form or, confirms whether it is correct from their own knowledge.   
 
