@@ -62,10 +62,19 @@ omitted or extra digits, for example, 537 instead of 5307 or 53107 instead of 53
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Actiity%207.7.jpg" alt="Activity 7.7" width="800"> 
 </div>      
   
-[Access the complete explanation here.](https://www.youtube.com/watch?v=jCpCOxbitPM&ab_channel=PerhloAcademy2)
+[Access the complete explanation here.](https://www.youtube.com/watch?v=jCpCOxbitPM&ab_channel=PerhloAcademy2)  
 
 
+## 7.5.2 Verification   
+**Verification** is checking that data has ben accurately copied from one source to another - for instance, input into a computer or transfered one part of a computer system to another.  
+Verification methods for input data include.  
+- Double entry.  
+- Screen/visual check.  
+For **double entry** the data is entered twice, somethimes by different operators. The computer system compares both entries and if they are different outputs an error message requesting that the data is entered again.    
 
-
+</div>        
+<div align="center"> 
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.14%20-%20Double%20Entry.jpg" alt="Figure 7.14" width="500"> 
+</div>     
 
 
