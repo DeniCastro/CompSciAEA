@@ -31,3 +31,31 @@ REPEAT
         OUTPUT "The student's mark should be between 0 and 100. Please re-enter."
     ENDIF
 UNTIL StudentMark >= 0 AND StudentMark <= 100
+```
+
+while True:
+    student_mark = int(input("Please enter the student's mark: "))
+    
+    if 0 <= student_mark <= 100:
+        break  # Valid mark, exit loop
+    else:
+        print("The student's mark should be between 0 and 100. Please re-enter.")  
+        
+## 2. Verification  
+Verification ensures that data is not accidentally changed while being entered.
+  
+Common Methods of Verification:
+🔄 Double Entry: The user enters data twice to confirm it is correct.
+👀 Proofreading: The user checks and confirms the data is correct.
+
+while True:
+    password1 = input("Enter your password: ")
+    password2 = input("Re-enter your password: ")
+    
+    if password1 == password2:
+        print("Passwords match! Data verified.")
+        break
+    else:
+        print("Passwords do not match. Try again.")
+
+
