@@ -22,3 +22,6 @@ Linear search
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Linear%20search%20in%20a%20bubble%20sort%20format.png" alt="Linear search in a bubble sort format">
 </p>  
 
+<p align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Validation%20check.png" alt="Validation types">
+</p>    
