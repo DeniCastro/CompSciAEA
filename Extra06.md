@@ -14,4 +14,11 @@ Sorting is the process of arranging data in a meaningful order, such as alphabet
 
 <p align="center">
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Example%20Sorting%201.png" alt="Sorting Example">
-</p>
+</p>  
+
+Linear search  
+
+<p align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Linear%20search%20in%20a%20bubble%20sort%20format.png" alt="Linear search in a bubble sort format">
+</p>  
+
