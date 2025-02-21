@@ -10,5 +10,8 @@ Sorting is the process of arranging data in a meaningful order, such as alphabet
 | **Bubble Sort**   | A simple sorting algorithm that repeatedly compares and swaps adjacent elements if they are in the wrong order. |
 | **How It Works**  | Steps through the list multiple times, moving larger elements towards the end until the entire list is sorted. |
 | **Efficiency**    | Easy to understand but inefficient for large datasets due to its slow speed. |
-| **Best Use Case** | Suitable for small datasets where simplicity is more important than speed. |
+| **Best Use Case** | Suitable for small datasets where simplicity is more important than speed. |  
 
+<p align="center">
+  <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Example%20Sorting%201.png" alt="Sorting Example">
+</p>
