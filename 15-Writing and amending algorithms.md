@@ -10,7 +10,11 @@
   <img src="https://github.com/DeniCastro/CompSciAEA/blob/ProgramDevelopmentCycle/Figure%207.19.jpg" alt="FIgure 7.19" width="800"> 
 </div>     
 
-# Writing algorithms in pseudocode  
+# Writing algorithms in pseudocode    
+### Video: [7.9 Amending Algorithms](https://www.youtube.com/watch?v=-s6xP2gYvxc)
+
+
+
 
 Tickets are sold for a concert at 20$ each. If 10 tickets are bought then the discount is 10%, if 20 tickets are bought the discount is 20%. No more than 25 tickets can be bought in a single transaction.
 
@@ -186,6 +190,8 @@ Total Amount: $120
 Discount Applied: 10%
 Final Cost: $108
 ```
+
+[Use this pseudocode compiler online.](https://pseudocode.deepjain.com/)
 
 ## **Practice Task**
 
