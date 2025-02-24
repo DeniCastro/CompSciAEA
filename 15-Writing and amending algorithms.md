@@ -16,9 +16,7 @@ Tickets are sold for a concert at 20$ each. If 10 tickets are bought then the di
 
 A. Use a pseudocode to write the algorithm to calculate the cost of buying a given number of tickets.  
 
-## Ticket Cost Calculation Algorithm (Pseudocode)
-
-## Problem Statement
+### Problem Statement
 
 Tickets are sold for a concert at $20 each. The following discount rules apply:
 
