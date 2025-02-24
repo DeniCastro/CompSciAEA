@@ -198,3 +198,37 @@ Final Cost: $108
 1. Modify the algorithm to apply a **25% discount** if the amount exceeds **$500**.
 2. Add a condition to **prevent negative inputs** and display an error message if the input is invalid.
 3. Enhance the output to show both the **discount amount** and the **final price** clearly.
+
+```
+BEGIN
+	PROMPT "Enter total purchase amount: "
+	INPUT totalAmount
+
+	IF totalAmount < 1
+		OUTPUT "Invalid Amount."
+	
+	IF totalAmount >= 500 THEN
+		discountRate ← 25
+
+	IF totalAmount >= 200 THEN
+		discountRate ← 15
+
+	ELSE IF totalAmount >= 100
+		discountRate ← 10
+
+	ELSE IF totalAmount >= 50 THEN
+		discountRate ← 5
+
+	ELSE 
+		discountRate ← 0
+	
+	ENDIF
+
+	
+
+
+	OUTPUT "Total Amount: $" totalAmount
+	OUTPUT "Total DIscount: %", discount
+	OUTPUT "Final Cost: $", finalCost
+
+```
