@@ -133,7 +133,7 @@ Total cost: $400.0
 ```
 Enter the number of tickets: 30
 Invalid number of tickets. Must be between 1 and 25.
-
+```
 
 # Shopping Discount Calculation Algorithm
 
