@@ -114,7 +114,10 @@ OUTPUT "Total cost: $", total_cost
 
 ### Example 1: Valid Input (15 Tickets)
 ```
-Enter the number of tickets: 15
+Enter the number of tickets: 15  
+If the tickets are 20$ and 15 * 20 = 300
+300 is multiplied by the discount (300 * 0,10), which totalizes 30
+Then you subtract 300 (initially the full price) by the discount (30)
 Total cost: $270.0
 ```
 
