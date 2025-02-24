@@ -28,6 +28,65 @@ The goal is to create an algorithm in pseudocode to calculate the total cost of 
 
 ---
 
+
+# Shopping Discount Calculation Algorithm
+
+Customers shopping at a store receive discounts based on their total purchase amount. The store applies the following discount rules:
+
+- **No discount** if the total amount is less than $50.
+- **5% discount** if the total amount is between $50 and $99.
+- **10% discount** if the total amount is between $100 and $199.
+- **15% discount** if the total amount is $200 or more.
+
+## **Step-by-Step Explanation**
+
+1. **Prompt the user for the total purchase amount.**
+2. **Check the amount against the discount rules.**
+3. **Apply the corresponding discount based on the amount.**
+4. **Calculate the final cost after the discount.**
+5. **Display the discounted amount and final price.**
+
+## **Pseudocode**
+
+```
+BEGIN
+    PROMPT "Enter total purchase amount: "
+    INPUT totalAmount
+
+    IF totalAmount >= 200 THEN
+        discountRate ← 15
+    ELSE IF totalAmount >= 100 THEN
+        discountRate ← 10
+    ELSE IF totalAmount >= 50 THEN
+        discountRate ← 5
+    ELSE
+        discountRate ← 0
+    ENDIF
+
+    discount ← (totalAmount * discountRate) / 100
+    finalCost ← totalAmount - discount
+
+    OUTPUT "Total Amount: $" totalAmount
+    OUTPUT "Discount Applied: " discountRate "%"
+    OUTPUT "Final Cost: $" finalCost
+END
+```
+
+## **Example Output**
+
+```
+Enter total purchase amount: 120
+Total Amount: $120
+Discount Applied: 10%
+Final Cost: $108
+```
+
+## **Practice Task**
+
+1. Modify the algorithm to apply a **25% discount** if the amount exceeds **$500**.
+2. Add a condition to **prevent negative inputs** and display an error message if the input is invalid.
+3. Enhance the output to show both the **discount amount** and the **final price** clearly.
+  
 ## Step-by-Step Breakdown
 
 ### 1. Input the Number of Tickets
