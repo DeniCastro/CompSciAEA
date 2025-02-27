@@ -2,7 +2,11 @@
 
 This algorithm calculates the highest, lowest, and average marks for four subjects (Maths, Science, English, and IT) across 600 students. It also provides overall statistics for all subjects combined.
 
-## Pseudocode with Line-by-Line Explanation
+## Question 1  
+### A school with 600 students wants to produce some information from the results of the four standard tests in Maths, Science, English and IT. Each test is out of 100 marks. The information output should be the highest, lowest and average mark for each test and the highest, lowest and average mark overall. All the marks need to be input. 
+a. Use pseudocode to write the algorithm to complete this task.
+
+## Question 1 Breakdown
 
 ```pseudocode
 // Initialisation of overall counters
