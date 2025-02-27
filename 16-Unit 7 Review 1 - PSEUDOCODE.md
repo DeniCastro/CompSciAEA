@@ -132,5 +132,67 @@ OUTPUT "Overall Lowest Mark is ", OverallLowest
   - Subject-wise highest, lowest, and average marks.
   - Overall highest, lowest, and average marks across all subjects.
 
-[Use this pseudocode compiler online.](https://pseudocode.deepjain.com/)
+[Use this pseudocode compiler online.](https://pseudocode.deepjain.com/)  
+
+# Question 2  
+
+## b. Identify the changes you would need to make to the algorithm to reduce the number of students to 5 and the number of subjects to 2.
+
+## 1. Update Subject Selection (CASE Statement)
+Since there are now only **2 subjects**, modify the `CASE` statement to reflect this:
+
+```pseudocode
+CASE OF Test
+    1 : SubjectName ← 'Maths'
+    2 : SubjectName ← 'Science'
+ENDCASE
+```
+
+---
+
+## 2. Adjust Loop for Subjects
+Change the outer loop to iterate through **2 subjects** instead of 4:
+
+```pseudocode
+FOR Test ← 1 TO 2
+```
+
+---
+
+## 3. Adjust Loop for Students
+Change the inner loop to iterate through **5 students** instead of 600:
+
+```pseudocode
+FOR StudentNumber ← 1 TO 5
+```
+
+---
+
+## 4. Update Calculation Constants
+Since there are **2 subjects** and **5 students**, update the calculations for averages:
+
+- **Subject Average:** Divide by 5 instead of 600:
+
+```pseudocode
+SubjectAverage ← SubjectTotal / 5
+```
+
+- **Overall Average:** Total marks now come from 10 scores (5 students × 2 subjects):
+
+```pseudocode
+OverallAverage ← OverallTotal / 10
+```
+
+---
+
+## Summary of Changes:
+
+1. **Subjects:** Reduce from **4** to **2** in the `CASE` statement.  
+2. **Student Loop:** Change from **600** to **5** in the inner loop.  
+3. **Subject Loop:** Change from **4** to **2** in the outer loop.  
+4. **Averages:** Update divisors in the `SubjectAverage` and `OverallAverage` calculations.  
+
+These modifications align the algorithm with the new requirements of **2 subjects** and **5 students**.
+
+
 
