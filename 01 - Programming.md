@@ -16,125 +16,97 @@ Many programming languages need an **Integrated Development Environment (IDE)** 
 
 ---
 
-# Introduction to Python for IGCSE
-
-## Why Python?
-Python will be the primary programming language used in this IGCSE course because:
+### Python will be the primary programming language used in this IGCSE course because:
 - **Easy to Learn**: Python has a simple and readable syntax, making it ideal for beginners.
 - **Versatile**: It is used in various fields, including web development, data analysis, artificial intelligence, and more.
 - **Wide Community Support**: Python has a large community, so finding help and resources is easy.
 - **Free and Open Source**: Python is free to use and distribute.
 
 ---
+# Python Programming for IGCSE
 
-## Basic Data Types in Python
+## Introduction
 
-Python supports several data types. Here are the most common ones:
+In this IGCSE Computer Science course, we will use **Python** as our programming language. Python is a popular, beginner-friendly language known for its simplicity and readability. Throughout this course, you will learn how to write and understand Python code to solve problems and complete tasks.
 
-### 1. **Integer (`int`)**
-- Represents whole numbers (positive or negative).
-- Example:
-  ```python
-  age = 15
-  print(age)  # Output: 15
+## Data Types in Python
 
+In Python, data types refer to the kind of value a variable can hold. Here are some of the basic data types we will work with:
+
+### 1. Integer (int)
+Integers are whole numbers (positive or negative) without decimals.
+
+**Example:**
+```python
+# Integer example
+number = 10
+print(number)  # Output: 10
+```
 
 ### 2. Float (float)
-Represents decimal numbers.
+Floats are numbers with decimal points.
 
-Example:
+**Example:**
+```python
+# Float example
+pi = 3.14
+print(pi)  # Output: 3.14
+```
 
-python
-Copy
-height = 1.75
-print(height)  # Output: 1.75
-3. String (str)
-Represents text enclosed in single or double quotes.
+### 3. String (str)
+Strings are sequences of characters (letters, numbers, symbols) enclosed in quotes.
 
-Example:
-
-python
-Copy
+**Example:**
+```python
+# String example
 name = "Alice"
 print(name)  # Output: Alice
-4. Boolean (bool)
-Represents True or False values.
+```
 
-Example:
+### 4. Boolean (bool)
+Booleans represent **True** or **False** values. They are useful for decision-making.
 
-python
-Copy
-is_student = True
-print(is_student)  # Output: True
-5. List (list)
-Represents an ordered collection of items (can contain different data types).
+**Example:**
+```python
+# Boolean example
+is_python_fun = True
+print(is_python_fun)  # Output: True
+```
 
-Example:
+### 5. List (list)
+Lists store multiple items in a single variable. Items in a list are ordered and can be changed.
 
-python
-Copy
+**Example:**
+```python
+# List example
 fruits = ["apple", "banana", "cherry"]
 print(fruits)  # Output: ['apple', 'banana', 'cherry']
-6. Dictionary (dict)
-Represents a collection of key-value pairs.
+```
 
-Example:
+### 6. Tuple (tuple)
+Tuples are like lists but **cannot** be changed (they are immutable).
 
-python
-Copy
-person = {"name": "Alice", "age": 15}
-print(person)  # Output: {'name': 'Alice', 'age': 15}
-Example Programs
-Example 1: Using Integers and Floats
-python
-Copy
-# Calculate the area of a rectangle
-length = 10
-width = 5.5
-area = length * width
-print("Area:", area)  # Output: Area: 55.0
-Example 2: Using Strings
-python
-Copy
-# Greet the user
-name = input("Enter your name: ")
-print("Hello,", name)  # Output: Hello, [user's name]
-Example 3: Using Lists
-python
-Copy
-# Print a list of fruits
-fruits = ["apple", "banana", "cherry"]
-for fruit in fruits:
-    print(fruit)
-# Output:
-# apple
-# banana
-# cherry
-Summary
-Python is a beginner-friendly and versatile programming language.
+**Example:**
+```python
+# Tuple example
+coordinates = (10, 20)
+print(coordinates)  # Output: (10, 20)
+```
 
-Common data types in Python include int, float, str, bool, list, and dict.
+### 7. Dictionary (dict)
+Dictionaries store data in **key-value** pairs.
 
-These data types allow you to work with numbers, text, and collections of data.
+**Example:**
+```python
+# Dictionary example
+student = {"name": "Alice", "age": 16}
+print(student)  # Output: {'name': 'Alice', 'age': 16}
+```
 
-Let’s start coding in Python! 🚀
+## Summary
 
-Copy
+Understanding these basic data types is crucial for writing Python programs. You will use them to store and manipulate data throughout the course. Practice working with these examples and ensure you understand how to declare and print each type.
 
----
+In the next lessons, we will explore how to combine these data types with Python logic to create more complex programs.
 
-### **How to Use This Markdown File**
-1. Copy the content above.
-2. Create a new file in your GitHub repository (e.g., `README.md` or `python-intro.md`).
-3. Paste the content into the file.
-4. Commit the file to your repository.
 
----
-
-### **Preview on GitHub**
-When viewed on GitHub:
-- Headings (`#`, `##`) will appear as large, bold text.
-- Code blocks (enclosed in ```) will be syntax-highlighted.
-- Lists and examples will be neatly formatted.
-
----
