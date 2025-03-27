@@ -124,20 +124,20 @@ Use f-strings to display the result in a user-friendly way.
 ## Extra 03 Continued  
 
 
-### Exercise 1: Perform the multiplication of two inputted numbers, check if its result higher than 100, then display the result of the multiplication and if the value is superior or not.  
+*Exercise 1:* Perform the multiplication of two inputted numbers, check if its result higher than 100, then display the result of the multiplication and if the value is superior or not.  
 
 
-### Exercise 2: Receive the input of three numbers and calculate their average.  
+*Exercise 2:* Receive the input of three numbers and calculate their average.  
 
 
-### Exercise 3: Receive 2 numbers, divide the first by the second one, then find the Remainder of the Division.  
+*Exercise 3:* Receive 2 numbers, divide the first by the second one, then find the Remainder of the Division.  
 
 
-### Exercise 4: Receive an number input for days, then convert it to hours, minutes and seconds.  
+*Exercise 4:* Receive an number input for days, then convert it to hours, minutes and seconds.  
 
 
-### Exercise 5: Receive inputs from the user asking for: name and middle name. Then print the first name, second name and full name sepparately.  
+*Exercise 5:* Receive inputs from the user asking for: name and middle name. Then print the first name, second name and full name sepparately.  
 
 
-### Exercise 6: Find the Largest Number of two inputted numbers: Ask the user to input two numbers and print the largest one. If they are equal, display a message saying they are the same.  
+*Exercise 6:* Find the Largest Number of two inputted numbers: Ask the user to input two numbers and print the largest one. If they are equal, display a message saying they are the same.  
   
