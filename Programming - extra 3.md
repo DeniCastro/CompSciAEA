@@ -124,7 +124,7 @@ Use f-strings to display the result in a user-friendly way.
 ## Extra 03 Continued  
 
 
-### Exercise 1: Receive the input of a multiplication of two numbers, check if its result higher than 100, then display if it is or not.  
+### Exercise 1: Perform the multiplication of two inputted numbers, check if its result higher than 100, then display the result of the multiplication and if the value is superior or not.  
 
 
 ### Exercise 2: Receive the input of three numbers and calculate their average.  
