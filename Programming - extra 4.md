@@ -160,7 +160,8 @@ print("Square of 5 is", y(5))
 # Positional arguments must be given in order.  
 
 
-``` def greet(name, message):
+```python  
+def greet(name, message):
     print(f"{message}, {name}!")
 
 greet("Alice", "Hello")  # Correct
@@ -188,7 +189,7 @@ print(f"Quotient: {q}, Remainder: {r}")
 
 # Higher-Order Functions and Lambda Expressions
 
-``` 
+```python  
 ## Functions as Arguments
 def apply_operation(x, y, operation):
     return operation(x, y)
@@ -213,7 +214,7 @@ print(square(5))  # Output: 25
 
 ## Using map(), filter(), reduce()  
 
-``` 
+```python 
 from functools import reduce
 numbers = [1, 2, 3, 4, 5]
 
@@ -232,7 +233,7 @@ print(sum_total)
 
 ## Recursion: A function that calls itself    
 
-``` 
+```python 
 def factorial(n):
     if n == 1:
         return 1  # Base case
@@ -255,7 +256,7 @@ example()
 
 ## Nested Functions & Closures
 
-``` 
+```python 
 
 def outer_function():
     message = "Hello"
