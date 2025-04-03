@@ -243,3 +243,4 @@ def outer_function():
 
 my_func = outer_function()
 my_func()  # Prints "Hello"
+
