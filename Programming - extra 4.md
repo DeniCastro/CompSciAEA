@@ -154,5 +154,92 @@ print("Square of 5 is", y(5))
 
 ---
 
-## Conclusion
-Functions are an essential part of programming. They help make code more readable, reusable, and efficient. Mastering functions will allow you to write better Python programs and solve problems more effectively.
+# Advanced Function Parameters and Return Types
+
+## Positional vs. Keyword Arguments
+# Positional arguments must be given in order.
+def greet(name, message):
+    print(f"{message}, {name}!")
+
+greet("Alice", "Hello")  # Correct
+#greet("Hello", "Alice")  # Incorrect order!
+
+## Default Parameters
+# If a parameter is not given, the default value is used.
+def greet(name, message="Hi"):
+    print(f"{message}, {name}!")
+
+greet("Bob")  # Uses default message "Hi"
+greet("Bob", "Good morning")  # Custom message
+
+## Returning Multiple Values
+def divide_numbers(a, b):
+    quotient = a // b
+    remainder = a % b
+    return quotient, remainder  # Returns a tuple
+
+q, r = divide_numbers(10, 3)
+print(f"Quotient: {q}, Remainder: {r}")
+
+# Higher-Order Functions and Lambda Expressions
+
+## Functions as Arguments
+def apply_operation(x, y, operation):
+    return operation(x, y)
+
+def add(a, b):
+    return a + b
+
+def multiply(a, b):
+    return a * b
+
+print(apply_operation(3, 4, add))  # Passes 'add' function
+print(apply_operation(3, 4, multiply))  # Passes 'multiply' function
+
+## Lambda Functions (anonymous functions)
+square = lambda x: x * x
+print(square(5))  # Output: 25
+
+## Using map(), filter(), reduce()
+from functools import reduce
+numbers = [1, 2, 3, 4, 5]
+
+doubled = list(map(lambda x: x * 2, numbers))  # Applies function to all items
+print(doubled)
+
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))  # Keeps only even numbers
+print(even_numbers)
+
+sum_total = reduce(lambda x, y: x + y, numbers)  # Reduces list to single value
+print(sum_total)
+
+# Recursion and Function Scope
+
+## Recursion: A function that calls itself
+def factorial(n):
+    if n == 1:
+        return 1  # Base case
+    return n * factorial(n - 1)  # Recursive case
+
+print(factorial(5))  # 5! = 5*4*3*2*1 = 120
+
+## Local vs. Global Variables
+global_var = "I'm global"
+
+def example():
+    local_var = "I'm local"
+    print(global_var)  # Accessible
+    print(local_var)  # Accessible
+
+example()
+#print(local_var)  # ERROR: Not accessible outside function
+
+## Nested Functions & Closures
+def outer_function():
+    message = "Hello"
+    def inner_function():
+        print(message)  # Inner function can access 'message'
+    return inner_function
+
+my_func = outer_function()
+my_func()  # Prints "Hello"
