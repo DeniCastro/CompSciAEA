@@ -157,8 +157,10 @@ print("Square of 5 is", y(5))
 # Advanced Function Parameters and Return Types
 
 ## Positional vs. Keyword Arguments
-# Positional arguments must be given in order.
-def greet(name, message):
+# Positional arguments must be given in order.  
+
+
+``` def greet(name, message):
     print(f"{message}, {name}!")
 
 greet("Alice", "Hello")  # Correct
@@ -181,8 +183,12 @@ def divide_numbers(a, b):
 q, r = divide_numbers(10, 3)
 print(f"Quotient: {q}, Remainder: {r}")
 
+```
+
+
 # Higher-Order Functions and Lambda Expressions
 
+``` 
 ## Functions as Arguments
 def apply_operation(x, y, operation):
     return operation(x, y)
@@ -195,12 +201,19 @@ def multiply(a, b):
 
 print(apply_operation(3, 4, add))  # Passes 'add' function
 print(apply_operation(3, 4, multiply))  # Passes 'multiply' function
+``` 
 
-## Lambda Functions (anonymous functions)
-square = lambda x: x * x
+## Lambda Functions (anonymous functions)  
+
+``` square = lambda x: x * x
 print(square(5))  # Output: 25
 
-## Using map(), filter(), reduce()
+```  
+
+
+## Using map(), filter(), reduce()  
+
+``` 
 from functools import reduce
 numbers = [1, 2, 3, 4, 5]
 
@@ -212,10 +225,14 @@ print(even_numbers)
 
 sum_total = reduce(lambda x, y: x + y, numbers)  # Reduces list to single value
 print(sum_total)
+``` 
 
-# Recursion and Function Scope
 
-## Recursion: A function that calls itself
+# Recursion and Function Scope  
+
+## Recursion: A function that calls itself    
+
+``` 
 def factorial(n):
     if n == 1:
         return 1  # Base case
@@ -233,8 +250,13 @@ def example():
 
 example()
 #print(local_var)  # ERROR: Not accessible outside function
+``` 
+
 
 ## Nested Functions & Closures
+
+``` 
+
 def outer_function():
     message = "Hello"
     def inner_function():
@@ -243,4 +265,6 @@ def outer_function():
 
 my_func = outer_function()
 my_func()  # Prints "Hello"
+``` 
+
 
