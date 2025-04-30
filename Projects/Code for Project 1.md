@@ -12,4 +12,18 @@ Use the following comments to create your code in python:
 # using a for loop, update the total after each subject is calculated in grades
 # update the average
 # Output results
-```
+```  
+Example output:
+````
+Enter your grades for the following subjects:
+Maths: 70
+Portuguese: 80
+English: 90
+Chemistry: 70
+Physics: 42
+
+--- Results ---
+Average grade: 70.40
+Highest grade: 90.0 in English
+Lowest grade: 42.0 in Physics
+````
