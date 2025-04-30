@@ -103,10 +103,108 @@ student = {"name": "Alice", "age": 16}
 print(student)  # Output: {'name': 'Alice', 'age': 16}
 ```
 
-## Summary
+# Python Lists and Dictionaries
 
-Understanding these basic data types is crucial for writing Python programs. You will use them to store and manipulate data throughout the course. Practice working with these examples and ensure you understand how to declare and print each type.
+## 📋 Lists
 
-In the next lessons, we will explore how to combine these data types with Python logic to create more complex programs.
+A **list** is an ordered collection of items. You can store multiple values in a single variable using a list.
+
+### 🔹 Creating a List
+
+```python
+subjects = ["Maths", "English", "Science"]
+```
+
+### 🔹 Accessing Items
+
+```python
+print(subjects[0])  # Outputs: Maths
+print(subjects[2])  # Outputs: Science
+```
+
+### 🔹 Adding Items to a List
+
+```python
+subjects.append("History")
+print(subjects)  # Outputs: ['Maths', 'English', 'Science', 'History']
+```
+
+### 🔹 Looping Through a List
+
+```python
+for subject in subjects:
+    print(subject)
+```
+
+### 🔹 Using Inputs with Lists
+
+```python
+marks = []
+for i in range(5):
+    mark = float(input(f"Enter mark {i+1}: "))
+    marks.append(mark)
+
+print("You entered:", marks)
+```
+
+---
+
+## 📘 Dictionaries
+
+A **dictionary** stores data in key-value pairs. It’s useful when you want to label each value.
+
+### 🔹 Creating a Dictionary
+
+```python
+grades = {
+    "Maths": 85,
+    "English": 78,
+    "Science": 92
+}
+```
+
+### 🔹 Accessing Items
+
+```python
+print(grades["Maths"])  # Outputs: 85
+```
+
+### 🔹 Adding/Updating Items
+
+```python
+grades["History"] = 88  # Add new key-value pair
+grades["Maths"] = 90    # Update existing value
+```
+
+### 🔹 Looping Through a Dictionary
+
+```python
+for subject, grade in grades.items():
+    print(f"{subject}: {grade}")
+```
+
+### 🔹 Using Inputs with Dictionaries
+
+```python
+subjects = ["Maths", "English", "Science"]
+grades = {}
+
+for subject in subjects:
+    grade = float(input(f"Enter your grade for {subject}: "))
+    grades[subject] = grade
+
+print(grades)
+```
+
+---
+
+## ✅ Summary
+
+| Structure   | Mutable | Ordered | Syntax         | Example Usage              |
+|-------------|---------|---------|----------------|----------------------------|
+| List        | Yes     | Yes     | `[]`           | Store marks or names       |
+| Dictionary  | Yes     | No      | `{key: value}` | Store subject:grade pairs  |
+
+
 
 
