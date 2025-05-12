@@ -61,3 +61,7 @@ numbers[1] = 25
 for num in numbers:
     print(num)
 ```
+
+## Exercise Extra 5:
+Use the following website for your research: [W3Schools - Python Lists](https://www.w3schools.com/python/python_lists.asp)
+
