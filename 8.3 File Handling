@@ -1,0 +1,105 @@
+## 8.3 File Handling
+
+### 8.3.1 Purpose of Storing Data in a File
+
+In Python and many other programming languages, data can be stored in *files* to retain information even after the program has stopped running. This contrasts with RAM (Random Access Memory), which is volatile and loses all stored data once the computer is turned off or the program ends.
+
+Storing data in files allows us to:
+- Save information permanently (e.g., user data, game scores, logs).
+- Share data between programs or users.
+- Load data into RAM only when needed, which conserves memory.
+
+Python supports file handling using the built-in `open()` function. A file can be opened in different modes:
+- `'r'`: read
+- `'w'`: write (overwrites if the file exists)
+- `'a'`: append (adds data to the end of the file)
+- `'b'`: binary mode (e.g., `'rb'`, `'wb'`)
+
+Files can be:
+- **Text files**: store human-readable characters (e.g., `.txt`, `.csv`)
+- **Binary files**: store data in binary format (e.g., images, videos)
+
+### 8.3.2 Using Files
+
+#### Identifying Files by Their Filenames
+
+Files are identified using their **filename** (e.g., `data.txt`, `log.csv`), which often includes a file extension that describes the type of data inside.
+
+A filename can be:
+- Relative (e.g., `myfile.txt`, assuming the file is in the current working directory)
+- Absolute (e.g., `C:/Users/John/Documents/data.txt`)
+
+#### File Handling in Pseudocode
+
+```pseudocode
+OPENFILE myFile FOR WRITE
+WRITE "Hello, world!" TO myFile
+CLOSEFILE myFile
+
+OPENFILE myFile FOR READ
+READ line FROM myFile
+OUTPUT line
+CLOSEFILE myFile
+```
+
+#### File Handling in Python
+
+##### Writing to a File
+
+```python
+# Open file for writing (creates the file if it doesn't exist)
+with open("example.txt", "w") as file:
+    file.write("This is a new file.\n")
+    file.write("Writing more lines.\n")
+```
+
+##### Appending to a File
+
+```python
+# Add more content to the end of the file
+with open("example.txt", "a") as file:
+    file.write("This line is appended.\n")
+```
+
+##### Reading from a File
+
+```python
+# Read all lines from a file
+with open("example.txt", "r") as file:
+    contents = file.read()
+    print(contents)
+```
+
+##### Reading Line by Line
+
+```python
+# Process each line individually
+with open("example.txt", "r") as file:
+    for line in file:
+        print(line.strip())  # .strip() removes newline characters
+```
+
+##### Storing Data from a List into a File
+
+```python
+names = ["Alice", "Bob", "Charlie"]
+with open("names.txt", "w") as file:
+    for name in names:
+        file.write(name + "\n")
+```
+
+##### Reading File into a List
+
+```python
+with open("names.txt", "r") as file:
+    name_list = file.readlines()
+    name_list = [name.strip() for name in name_list]
+print(name_list)
+```
+
+---
+
+Remember:
+- Always **close** the file after opening (or use `with` to do it automatically).
+- Always check if the file exists (especially for reading) to avoid errors.
+- Handle exceptions using `try...except` when working with files in real-world programs.
