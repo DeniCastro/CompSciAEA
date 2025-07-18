@@ -1,0 +1,72 @@
+#  Introduction to Databases
+
+##  What is a Database?
+
+A **database** is an organised collection of data that is stored and accessed electronically. Rather than keeping records in paper files or scattered documents, databases allow us to store data in a structured, digital format that makes searching, editing, and analysing information efficient and reliable.
+
+###  Why Are Databases Useful?
+
+Databases are used in nearly every modern digital system because they allow:
+
+-  **Centralised storage** of information
+-  **Quick retrieval** of specific data
+-  **Secure and controlled access** to sensitive records
+-  **Efficient updates and maintenance**
+-  **Data analysis and reporting**
+
+---
+
+##  What Are Databases Used For?
+
+Databases power countless real-world systems and industries. Here are a few examples:
+
+-  **Storing information about people** – customer profiles, user accounts, employee records
+-  **Managing data about things** – inventory, products, devices, equipment
+-  **Tracking events** – appointments, bookings, schedules, logs
+-  **Handling complex business processes** – payroll, CRM, ERP systems
+-  **Powering e-commerce platforms** – product listings, carts, order history
+-  **Facilitating financial transactions** – banking, budgeting, invoicing
+-  **Supporting scientific research** – experiment data, lab results, gene sequences
+-  **Enabling online gaming experiences** – user stats, game state, matchmaking
+
+---
+
+##  Database Structure: Fields and Records
+
+Databases are built using **tables**, which are made up of **records** and **fields**. Here's a breakdown:
+
+###  Table
+
+A **table** is a set of data elements organised in vertical columns (**fields**) and horizontal rows (**records**). Think of it like a spreadsheet.
+
+###  Record
+
+A **record** is a single row in a table. It contains all the information about **one entity** (e.g., one person, one product).
+
+###  Field
+
+A **field** is a single piece of information in a record, like a column in a table. Each field has a **data type** (e.g., text, number, date).
+
+#### Example Table: `Students`
+
+| ID | FirstName | LastName | DateOfBirth | Grade |
+|----|-----------|----------|-------------|-------|
+| 1  | Alice     | Johnson  | 2005-04-21  | A     |
+| 2  | Bob       | Smith    | 2006-08-15  | B     |
+
+- Each **row** is a record (e.g. Alice's or Bob’s data).
+- Each **column** is a field (e.g. FirstName, Grade).
+
+---
+
+##  Summary
+
+- A **database** is a digital tool for storing and managing data.
+- They are **widely used** in business, research, gaming, e-commerce, and more.
+- **Tables** contain **records** (rows), which consist of **fields** (columns).
+- Databases make it easier to **organise, access, and analyse** large volumes of information.
+
+---
+
+>  In the next lesson, we'll explore **Relational Databases**, **primary keys**, and how data in different tables can be linked using **relationships**.
+
