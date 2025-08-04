@@ -1,4 +1,20 @@
-# BOOLEAN LOGIC 10.1
+# Introduction to Logic Gates and Logic Circuits
+
+Electronic circuits found in computers, solid-state drives, and control devices are made up of thousands of logic gates. 
+
+Logic gates work with **binary inputs** (0s and 1s) and produce a **binary output**. When several logic gates are connected together, they form a **logic circuit**, which is designed to carry out a specific task or function.
+
+To check how a logic gate or logic circuit behaves, we use a **truth table**. A truth table lists all possible input combinations and shows the corresponding output.
+
+This chapter will cover:
+- The function and role of logic gates
+- How logic circuits work
+- How to use truth tables
+- Examples of real-world application circuits
+
+You will also see references to **Boolean algebra**. While this topic is more advanced and goes beyond the scope of this textbook, it is included for completeness. Boolean algebra appears frequently on websites and resources about logic gates, and some students may prefer its notation instead of standard logic statements.  
+
+
 
 ## 1. Standard Logic Gates
 
