@@ -1,5 +1,6 @@
 ## What are Logic Gates?
 
+
 Logic gates are small electronic components that take binary inputs (0 or 1) and produce a binary output. They are used in all modern digital systems.
 
 ---
@@ -191,6 +192,7 @@ This is the truth table of an XOR gate.
 | XOR  | A ⊕ B | Output is 1 when inputs are different |
 
 ---
+[Learn more about boolean logic and boolean algebra here (Crash Course YouTube)](https://www.youtube.com/watch?v=gI-qXk7XojA&ab_channel=CrashCourse)
 
 **End of Document**
    
