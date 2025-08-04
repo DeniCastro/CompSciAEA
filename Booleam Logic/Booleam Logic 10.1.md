@@ -194,5 +194,5 @@ This is the truth table of an XOR gate.
 ---
 [Learn more about boolean logic and boolean algebra here (Crash Course YouTube)](https://www.youtube.com/watch?v=gI-qXk7XojA&ab_channel=CrashCourse)
 
-**End of Document**
+
    
