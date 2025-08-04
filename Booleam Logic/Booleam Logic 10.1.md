@@ -1,3 +1,46 @@
+## What are Logic Gates?
+
+Logic gates are small electronic components that take binary inputs (0 or 1) and produce a binary output. They are used in all modern digital systems.
+
+---
+
+## What are Binary Inputs and Outputs?
+
+- **Binary Input**: A signal that can only be 0 (off) or 1 (on)
+- **Binary Output**: The result from the logic gate, also 0 or 1
+
+---
+
+## How Do Logic Gates Work?
+
+Each gate follows a specific rule. For example:
+
+- **NOT gate**: Inverts the input  
+  - Input: 1 → Output: 0  
+  - Input: 0 → Output: 1
+
+- **AND gate**: Output is 1 only if both inputs are 1  
+- **OR gate**: Output is 1 if at least one input is 1
+
+---
+
+## Example: AND Gate Truth Table
+
+| A | B | Output |
+|---|---|--------|
+| 0 | 0 |   0    |
+| 0 | 1 |   0    |
+| 1 | 0 |   0    |
+| 1 | 1 |   1    |
+
+---
+
+## How to Understand Them
+
+- Use **truth tables** to see input/output patterns
+- Practice building **logic circuits**
+- Learn the meanings of each gate (AND, OR, NOT, etc.)
+  
 # Introduction to Logic Gates and Logic Circuits
 
 Electronic circuits found in computers, solid-state drives, and control devices are made up of thousands of logic gates. 
