@@ -1,7 +1,8 @@
 # Binary Arithmetic and Conversion Project
 
 ## Instructions:
-Complete the following steps using the two negative decimal numbers provided. Show all work clearly and label each step.
+Complete the following steps using the two negative decimal numbers provided. Show all work clearly and label each step.  
+Send your work on Google Classroom.  
 
 ### Given:
 - Number A: -45  
